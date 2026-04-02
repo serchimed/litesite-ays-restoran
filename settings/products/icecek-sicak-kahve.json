@@ -1,0 +1,17 @@
+{
+  "id": "ic6",
+  "name": "Sıcak Kahve",
+  "url": "icecek-sicak-kahve",
+  "images": ["icecek-sicak-kahve.jpg"],
+  "price": 175,
+  "weight": { "value": 1, "unit": "fincan" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Sıcak servis edilen kahve.",
+  "metaDesc": "AYS KEBAP Sıcak Kahve — 175₺",
+  "keywords": "sıcak kahve, kahve, içecek, ays kebap",
+  "longDesc": ["Özel kahve çekirdeğinden hazırlanan sıcak kahve."],
+  "otherDesc": [
+    { "name": "Servis", "value": "Sıcak", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

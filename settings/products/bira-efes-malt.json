@@ -1,0 +1,17 @@
+{
+  "id": "b1",
+  "name": "Efes Malt",
+  "url": "bira-efes-malt",
+  "images": ["bira-efes-malt.jpg"],
+  "price": 250,
+  "weight": { "value": 1, "unit": "şişe" },
+  "category": { "name": "Bira", "url": "bira" },
+  "shortDesc": "Soğuk Efes Malt bira.",
+  "metaDesc": "AYS KEBAP Efes Malt — 250₺",
+  "keywords": "efes malt, bira, ays kebap",
+  "longDesc": ["Soğuk servis edilen Efes Malt bira."],
+  "otherDesc": [
+    { "name": "Marka", "value": "Efes Malt", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

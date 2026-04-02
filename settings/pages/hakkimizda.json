@@ -1,0 +1,42 @@
+{
+  "title": "Hakkımızda | AYS KEBAP",
+  "description": "AYS KEBAP hakkında bilgi edinin. Geleneksel tarifler, taze malzemeler ve özel baharatlarla hazırlanan kebap, dürüm ve ızgara lezzetleri.",
+  "keywords": "ays kebap hakkında, kebap restoranı, adana kebap, dürüm, ızgara, geleneksel kebap",
+  "showOnHeaderMenu": true,
+  "priority": 0.7,
+  "partials": ["article-header", "page-image", "parts", "article-footer"],
+  "parts": [
+    {
+      "title": "Biz Kimiz",
+      "content": [
+        "AYS KEBAP, geleneksel Türk kebap kültürünü modern servis anlayışıyla buluşturan bir mutfak markasıdır.",
+        "Adana'nın ateşli lezzetlerinden Urfa'nın yumuşak tatlarına, kuzu kuşbaşından ızgara köfteye kadar geniş bir menü sunuyoruz.",
+        "Her sipariş, taze et ve yerel malzemelerle o an hazırlanır; sofralarınıza sıcak ve lezzetli ulaşması için özenle paketlenir."
+      ]
+    },
+    {
+      "title": "Felsefemiz",
+      "content": [
+        "Kalitemizden ödün vermeden, her gün aynı lezzeti sunmak temel ilkemizdir.",
+        "Özel baharat karışımlarımız ve marine yöntemlerimiz yılların birikiminin ürünüdür.",
+        "Müşteri memnuniyeti bizim için bir hedef değil, olmazsa olmaz bir standarttır."
+      ]
+    },
+    {
+      "title": "Menümüz",
+      "content": [
+        "Çorba ve aperatiflerden dürüm çeşitlerine, porsiyonlardan milkshake ve içeceklere kadar zengin bir menü sunuyoruz.",
+        "Adana, Urfa, dana kuşbaşı, tavuk şiş, köfte ve daha fazlası hem tek şiş hem double şiş seçenekleriyle sipariş edilebilir.",
+        "İçecekler arasında limonata, milkshake, smoothie ve frozen çeşitlerinin yanı sıra şarap, bira, rakı ve viski de yer almaktadır."
+      ]
+    },
+    {
+      "title": "Sipariş",
+      "content": [
+        "WhatsApp üzerinden kolayca sipariş verebilirsiniz; sepetinizi oluşturduktan sonra 'WhatsApp'tan Siparişini İlet' butonuna tıklamanız yeterlidir.",
+        "Yakın çevredeki teslimatlar ücretsizdir; sipariş bölgesi ve tahmini teslimat süresi için bizimle iletişime geçebilirsiniz.",
+        "Sorularınız için telefon veya e-posta yoluyla da ulaşabilirsiniz."
+      ]
+    }
+  ]
+}

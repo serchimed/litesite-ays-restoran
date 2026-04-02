@@ -1,0 +1,17 @@
+{
+  "id": "ic3",
+  "name": "Alkollü Kokteyl",
+  "url": "icecek-alkol-kokteyl",
+  "images": ["icecek-alkol-kokteyl.jpg"],
+  "price": 520,
+  "weight": { "value": 1, "unit": "bardak" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Özel karışım alkollü kokteyl.",
+  "metaDesc": "AYS KEBAP Alkollü Kokteyl — 520₺",
+  "keywords": "alkollü kokteyl, kokteyl, içecek, ays kebap",
+  "longDesc": ["Özel karışım malzemelerle hazırlanan, sunumlu alkollü kokteyl."],
+  "otherDesc": [
+    { "name": "Tür", "value": "Alkollü", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

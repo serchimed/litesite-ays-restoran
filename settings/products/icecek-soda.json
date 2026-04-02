@@ -1,0 +1,17 @@
+{
+  "id": "ic15",
+  "name": "Soda",
+  "url": "icecek-soda",
+  "images": ["icecek-soda.jpg"],
+  "price": 50,
+  "weight": { "value": 1, "unit": "şişe" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Soğuk soda.",
+  "metaDesc": "AYS KEBAP Soda — 50₺",
+  "keywords": "soda, içecek, ays kebap",
+  "longDesc": ["Soğuk servis edilen köpüklü soda."],
+  "otherDesc": [
+    { "name": "Tür", "value": "Soda", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

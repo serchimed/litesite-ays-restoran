@@ -1,0 +1,17 @@
+{
+  "id": "s2",
+  "name": "Şarap (Şişe)",
+  "url": "sarap-sise",
+  "images": ["sarap-sise.jpg"],
+  "price": 2000,
+  "weight": { "value": 1, "unit": "şişe" },
+  "category": { "name": "Şarap", "url": "sarap" },
+  "shortDesc": "Seçkin şarap, şişe servis.",
+  "metaDesc": "AYS KEBAP Şarap Şişe — 2000₺",
+  "keywords": "şarap, şişe, ays kebap",
+  "longDesc": ["Özenle seçilmiş şarap, tam şişe olarak servis edilir."],
+  "otherDesc": [
+    { "name": "Servis", "value": "Şişe", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Menümüz | AYS KEBAP",
+  "description": "AYS KEBAP menüsü: Adana, Urfa, kuşbaşı, köfte dürüm ve porsiyonlar, milkshake, içecek, şarap, bira, rakı ve viski seçenekleri.",
+  "keywords": "ays kebap menü, adana dürüm, urfa dürüm, kebap menüsü, ızgara porsiyon, milkshake, içecek, şarap, bira",
+  "showOnHeaderMenu": true,
+  "priority": 0.7,
+  "partials": ["article-header", "page-image", "parts", "product-cards", "article-footer"],
+  "parts": [
+    {
+      "title": "Sipariş Ver",
+      "content": [
+        "Menüden beğendiklerinizi sepete ekledikten sonra 'WhatsApp'tan Siparişini İlet' butonuna tıklayarak siparişinizi bize iletebilirsiniz.",
+        "Yakın çevredeki siparişlerde teslimat ücretsizdir."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ic12",
+  "name": "Küçük Su",
+  "url": "icecek-kucuk-su",
+  "images": ["icecek-su.jpg"],
+  "price": 30,
+  "weight": { "value": 330, "unit": "ml" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "330 ml soğuk su.",
+  "metaDesc": "AYS KEBAP Küçük Su — 30₺",
+  "keywords": "su, küçük su, içecek, ays kebap",
+  "longDesc": ["330 ml soğuk maden suyu."],
+  "otherDesc": [
+    { "name": "Hacim", "value": "330 ml", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

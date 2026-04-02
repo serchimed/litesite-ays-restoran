@@ -1,0 +1,17 @@
+{
+  "id": "ic11",
+  "name": "Fuse Tea",
+  "url": "icecek-fuse-tea",
+  "images": ["icecek-fuse-tea.jpg"],
+  "price": 90,
+  "weight": { "value": 1, "unit": "kutu/şişe" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Soğuk Fuse Tea meyve aromalı soğuk çay.",
+  "metaDesc": "AYS KEBAP Fuse Tea — 90₺",
+  "keywords": "fuse tea, soğuk çay, içecek, ays kebap",
+  "longDesc": ["Soğuk servis edilen meyve aromalı Fuse Tea."],
+  "otherDesc": [
+    { "name": "Tür", "value": "Soğuk Çay", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

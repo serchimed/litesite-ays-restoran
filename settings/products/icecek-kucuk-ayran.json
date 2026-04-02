@@ -1,0 +1,17 @@
+{
+  "id": "ic13",
+  "name": "Küçük Ayran",
+  "url": "icecek-kucuk-ayran",
+  "images": ["icecek-ayran.jpg"],
+  "price": 40,
+  "weight": { "value": 200, "unit": "ml" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Küçük boy soğuk ayran.",
+  "metaDesc": "AYS KEBAP Küçük Ayran — 40₺",
+  "keywords": "ayran, küçük ayran, içecek, ays kebap",
+  "longDesc": ["Soğuk servis edilen küçük boy ayran."],
+  "otherDesc": [
+    { "name": "Boy", "value": "Küçük", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

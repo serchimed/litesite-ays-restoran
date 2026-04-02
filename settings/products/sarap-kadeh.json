@@ -1,0 +1,17 @@
+{
+  "id": "s1",
+  "name": "Şarap (Kadeh)",
+  "url": "sarap-kadeh",
+  "images": ["sarap-kadeh.jpg"],
+  "price": 400,
+  "weight": { "value": 1, "unit": "kadeh" },
+  "category": { "name": "Şarap", "url": "sarap" },
+  "shortDesc": "Seçkin şarap, kadeh servis.",
+  "metaDesc": "AYS KEBAP Şarap Kadeh — 400₺",
+  "keywords": "şarap, kadeh, ays kebap",
+  "longDesc": ["Özenle seçilmiş şarap, kadeh olarak servis edilir."],
+  "otherDesc": [
+    { "name": "Servis", "value": "Kadeh", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ic1",
+  "name": "Limonata",
+  "url": "icecek-limonata",
+  "images": ["icecek-limonata.jpg"],
+  "price": 120,
+  "weight": { "value": 1, "unit": "bardak" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Taze sıkılmış limonata.",
+  "metaDesc": "AYS KEBAP Limonata — 120₺",
+  "keywords": "limonata, içecek, ays kebap",
+  "longDesc": ["Taze limonlarla yapılan, ferahlatıcı ev yapımı limonata."],
+  "otherDesc": [
+    { "name": "Tür", "value": "Limonata", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

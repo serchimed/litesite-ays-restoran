@@ -1,0 +1,17 @@
+{
+  "id": "dd6",
+  "name": "Çıtır Tavuk Dürüm (Double Şiş)",
+  "url": "durum-citir-tavuk-double",
+  "images": ["durum-citir-tavuk.jpg"],
+  "price": 400,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "Dürüm", "url": "dorum" },
+  "shortDesc": "Çıtır tavuk parçaları ile hazırlanan lavaş dürüm, double şiş.",
+  "metaDesc": "AYS KEBAP Çıtır Tavuk Dürüm Double Şiş — 400₺",
+  "keywords": "çıtır tavuk, dürüm, double şiş, ays kebap",
+  "longDesc": ["Çıtır kızartılmış tavuk parçaları lavaşa double şiş olarak sarılarak servis edilir."],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "Double Şiş", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

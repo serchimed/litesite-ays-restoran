@@ -1,0 +1,17 @@
+{
+  "id": "p10",
+  "name": "Tavuk Izgara",
+  "url": "porsiyon-tavuk-izgara",
+  "images": ["porsiyon-tavuk-izgara.jpg"],
+  "price": 500,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Porsiyon", "url": "porsiyon" },
+  "shortDesc": "Marine edilmiş ızgara tavuk, pilav ve salata ile servis edilir.",
+  "metaDesc": "AYS KEBAP Tavuk Izgara — 500₺",
+  "keywords": "tavuk ızgara, porsiyon, ays kebap",
+  "longDesc": ["Özel marinad ile hazırlanan bütün tavuk ızgara, pilav ve salata eşliğinde servis edilir."],
+  "otherDesc": [
+    { "name": "Pişirme", "value": "Izgara", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

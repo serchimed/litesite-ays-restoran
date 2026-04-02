@@ -1,0 +1,17 @@
+{
+  "id": "ic9",
+  "name": "Fanta",
+  "url": "icecek-fanta",
+  "images": ["icecek-fanta.jpg"],
+  "price": 90,
+  "weight": { "value": 1, "unit": "kutu/şişe" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Soğuk Fanta portakal.",
+  "metaDesc": "AYS KEBAP Fanta — 90₺",
+  "keywords": "fanta, portakal, içecek, ays kebap",
+  "longDesc": ["Soğuk servis edilen Fanta portakal."],
+  "otherDesc": [
+    { "name": "Lezzet", "value": "Portakal", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

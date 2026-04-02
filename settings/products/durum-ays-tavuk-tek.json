@@ -1,0 +1,17 @@
+{
+  "id": "dt7",
+  "name": "AYS Tavuk Dürüm (Tek Şiş)",
+  "url": "durum-ays-tavuk-tek",
+  "images": ["durum-ays-tavuk.jpg"],
+  "price": 300,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "Dürüm", "url": "dorum" },
+  "shortDesc": "AYS KEBAP'a özel sos ve tavuk ile hazırlanan özel dürüm, tek şiş.",
+  "metaDesc": "AYS KEBAP AYS Tavuk Dürüm Tek Şiş — 300₺",
+  "keywords": "ays tavuk, dürüm, tek şiş, ays kebap",
+  "longDesc": ["AYS KEBAP'a özel karışım baharatlar ve sos ile hazırlanan tavuk dürüm."],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "Tek Şiş", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

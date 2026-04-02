@@ -1,0 +1,17 @@
+{
+  "id": "p5",
+  "name": "Ciğer Şiş Porsiyon",
+  "url": "porsiyon-ciger-sis",
+  "images": ["porsiyon-ciger-sis.jpg"],
+  "price": 600,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Porsiyon", "url": "porsiyon" },
+  "shortDesc": "Taze ciğer şiş porsiyonu, pilav ve salata ile servis edilir.",
+  "metaDesc": "AYS KEBAP Ciğer Şiş Porsiyon — 600₺",
+  "keywords": "ciğer şiş, porsiyon, ays kebap",
+  "longDesc": ["Taze ciğer özel baharatlarla şişe geçirilerek pilav ve salata ile servis edilir."],
+  "otherDesc": [
+    { "name": "Et", "value": "Ciğer Şiş", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ap6",
+  "name": "Yoğurt",
+  "url": "aperatif-yogurt",
+  "images": ["aperatif-yogurt.jpg"],
+  "price": 150,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Aperatif", "url": "aperatif" },
+  "shortDesc": "Sade yoğurt, kebap yanında servis edilir.",
+  "metaDesc": "AYS KEBAP Yoğurt — 150₺",
+  "keywords": "yoğurt, aperatif, ays kebap",
+  "longDesc": ["Taze ve sade yoğurt, kebap yemeklerinin yanında ikram edilir."],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "1 Porsiyon", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

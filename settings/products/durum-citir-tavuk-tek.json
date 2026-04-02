@@ -1,0 +1,17 @@
+{
+  "id": "dt6",
+  "name": "Çıtır Tavuk Dürüm (Tek Şiş)",
+  "url": "durum-citir-tavuk-tek",
+  "images": ["durum-citir-tavuk.jpg"],
+  "price": 300,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "Dürüm", "url": "dorum" },
+  "shortDesc": "Çıtır tavuk parçaları ile hazırlanan lavaş dürüm, tek şiş.",
+  "metaDesc": "AYS KEBAP Çıtır Tavuk Dürüm Tek Şiş — 300₺",
+  "keywords": "çıtır tavuk, dürüm, tek şiş, ays kebap",
+  "longDesc": ["Çıtır kızartılmış tavuk parçaları lavaşa sarılarak servis edilir."],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "Tek Şiş", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

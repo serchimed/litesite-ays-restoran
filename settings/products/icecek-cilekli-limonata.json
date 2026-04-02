@@ -1,0 +1,17 @@
+{
+  "id": "ic2",
+  "name": "Çilekli Limonata",
+  "url": "icecek-cilekli-limonata",
+  "images": ["icecek-cilekli-limonata.jpg"],
+  "price": 150,
+  "weight": { "value": 1, "unit": "bardak" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Taze çilek ve limonla hazırlanan ferahlatıcı limonata.",
+  "metaDesc": "AYS KEBAP Çilekli Limonata — 150₺",
+  "keywords": "çilekli limonata, limonata, içecek, ays kebap",
+  "longDesc": ["Taze çilek ve limon ile hazırlanan, ferahlatıcı çilekli limonata."],
+  "otherDesc": [
+    { "name": "Tür", "value": "Çilekli Limonata", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

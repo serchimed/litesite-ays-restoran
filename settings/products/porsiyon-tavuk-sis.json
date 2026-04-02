@@ -1,0 +1,17 @@
+{
+  "id": "p4",
+  "name": "Tavuk Şiş Porsiyon",
+  "url": "porsiyon-tavuk-sis",
+  "images": ["porsiyon-tavuk-sis.jpg"],
+  "price": 500,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Porsiyon", "url": "porsiyon" },
+  "shortDesc": "Marine edilmiş tavuk şiş porsiyonu, pilav ve salata ile servis edilir.",
+  "metaDesc": "AYS KEBAP Tavuk Şiş Porsiyon — 500₺",
+  "keywords": "tavuk şiş, porsiyon, ays kebap",
+  "longDesc": ["Özel marinad ile hazırlanan tavuk şiş, pilav ve salata eşliğinde servis edilir."],
+  "otherDesc": [
+    { "name": "Et", "value": "Tavuk Şiş", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "p7",
+  "name": "Izgara Köfte Porsiyon",
+  "url": "porsiyon-izgara-kofte",
+  "images": ["porsiyon-izgara-kofte.jpg"],
+  "price": 550,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Porsiyon", "url": "porsiyon" },
+  "shortDesc": "El yapımı ızgara köfte porsiyonu, pilav ve salata ile servis edilir.",
+  "metaDesc": "AYS KEBAP Izgara Köfte Porsiyon — 550₺",
+  "keywords": "ızgara köfte, porsiyon, ays kebap",
+  "longDesc": ["Özel baharat karışımıyla hazırlanan el yapımı ızgara köfte, pilav ve salata ile servis edilir."],
+  "otherDesc": [
+    { "name": "Pişirme", "value": "Izgara", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

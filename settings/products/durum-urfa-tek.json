@@ -1,0 +1,17 @@
+{
+  "id": "dt2",
+  "name": "Urfa Dürüm (Tek Şiş)",
+  "url": "durum-urfa-tek",
+  "images": ["durum-urfa.jpg"],
+  "price": 350,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "Dürüm", "url": "dorum" },
+  "shortDesc": "Acısız Urfa kebap ile hazırlanan lavaş dürüm, tek şiş.",
+  "metaDesc": "AYS KEBAP Urfa Dürüm Tek Şiş — 350₺",
+  "keywords": "urfa dürüm, tek şiş, kebap, ays kebap",
+  "longDesc": ["Hafif baharatlı Urfa kebap, lavaş ekmeğe sarılarak sunulur."],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "Tek Şiş", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

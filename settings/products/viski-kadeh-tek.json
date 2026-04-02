@@ -1,0 +1,17 @@
+{
+  "id": "v1",
+  "name": "Viski Kadeh Tek",
+  "url": "viski-kadeh-tek",
+  "images": ["viski-kadeh.jpg"],
+  "price": 400,
+  "weight": { "value": 1, "unit": "kadeh" },
+  "category": { "name": "Viski", "url": "viski" },
+  "shortDesc": "Viski, tek kadeh servis.",
+  "metaDesc": "AYS KEBAP Viski Kadeh Tek — 400₺",
+  "keywords": "viski, kadeh, tek, ays kebap",
+  "longDesc": ["Tek kadeh olarak servis edilen viski."],
+  "otherDesc": [
+    { "name": "Servis", "value": "Tek Kadeh", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "dd1",
+  "name": "Adana Dürüm (Double Şiş)",
+  "url": "durum-adana-double",
+  "images": ["durum-adana.jpg"],
+  "price": 500,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "Dürüm", "url": "dorum" },
+  "shortDesc": "Acılı Adana kebap ile hazırlanan lavaş dürüm, double şiş.",
+  "metaDesc": "AYS KEBAP Adana Dürüm Double Şiş — 500₺",
+  "keywords": "adana dürüm, double şiş, kebap, ays kebap",
+  "longDesc": ["AYS KEBAP'ın özel baharatlarıyla hazırlanan Adana kebap, ince lavaş ekmeğe sarılarak double şiş ile servis edilir."],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "Double Şiş", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

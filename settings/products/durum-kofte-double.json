@@ -1,0 +1,17 @@
+{
+  "id": "dd9",
+  "name": "Köfte Dürüm (Double Şiş)",
+  "url": "durum-kofte-double",
+  "images": ["durum-kofte.jpg"],
+  "price": 500,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "Dürüm", "url": "dorum" },
+  "shortDesc": "El yapımı köfte ile hazırlanan lavaş dürüm, double şiş.",
+  "metaDesc": "AYS KEBAP Köfte Dürüm Double Şiş — 500₺",
+  "keywords": "köfte dürüm, double şiş, ays kebap",
+  "longDesc": ["Özel baharat karışımıyla hazırlanan el yapımı köfte, lavaş ekmeğe double şiş olarak sarılarak servis edilir."],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "Double Şiş", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

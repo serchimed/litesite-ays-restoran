@@ -1,0 +1,17 @@
+{
+  "id": "p9",
+  "name": "Kuzu Pirzola Şiş Porsiyon",
+  "url": "porsiyon-kuzu-pirzola",
+  "images": ["porsiyon-kuzu-pirzola.jpg"],
+  "price": 1100,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Porsiyon", "url": "porsiyon" },
+  "shortDesc": "Taze kuzu pirzola şiş porsiyonu, pilav ve salata ile servis edilir.",
+  "metaDesc": "AYS KEBAP Kuzu Pirzola Şiş Porsiyon — 1100₺",
+  "keywords": "kuzu pirzola, şiş, porsiyon, ays kebap",
+  "longDesc": ["Taze kuzu pirzola, özel baharatlarla şişe geçirilerek ızgarada pişirilir ve pilav-salata ile servis edilir."],
+  "otherDesc": [
+    { "name": "Et", "value": "Kuzu Pirzola", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

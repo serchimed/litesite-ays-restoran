@@ -1,0 +1,17 @@
+{
+  "id": "dt9",
+  "name": "Köfte Dürüm (Tek Şiş)",
+  "url": "durum-kofte-tek",
+  "images": ["durum-kofte.jpg"],
+  "price": 350,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "Dürüm", "url": "dorum" },
+  "shortDesc": "El yapımı köfte ile hazırlanan lavaş dürüm, tek şiş.",
+  "metaDesc": "AYS KEBAP Köfte Dürüm Tek Şiş — 350₺",
+  "keywords": "köfte dürüm, tek şiş, ays kebap",
+  "longDesc": ["Özel baharat karışımıyla hazırlanan el yapımı köfte, lavaş ekmeğe sarılarak servis edilir."],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "Tek Şiş", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

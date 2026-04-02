@@ -1,0 +1,17 @@
+{
+  "id": "p12",
+  "name": "Karışık Izgara (4 Kişilik)",
+  "url": "porsiyon-karisik-4",
+  "images": ["porsiyon-karisik.jpg"],
+  "price": 3000,
+  "weight": { "value": 4, "unit": "kişilik" },
+  "category": { "name": "Porsiyon", "url": "porsiyon" },
+  "shortDesc": "Çeşitli ızgara etlerden oluşan 4 kişilik karışık tabak.",
+  "metaDesc": "AYS KEBAP Karışık Izgara 4 Kişilik — 3000₺",
+  "keywords": "karışık ızgara, 4 kişilik, ays kebap",
+  "longDesc": ["Adana, urfa, tavuk şiş, köfte ve daha fazlasının bir arada sunulduğu, pilav ve salata eşlikli 4 kişilik karışık ızgara tabak."],
+  "otherDesc": [
+    { "name": "Kişi Sayısı", "value": "4 Kişilik", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

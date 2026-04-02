@@ -1,0 +1,17 @@
+{
+  "id": "dd8",
+  "name": "Kuzu Kuşbaşı Dürüm (Double Şiş)",
+  "url": "durum-kuzu-kusabasi-double",
+  "images": ["durum-kuzu-kusabasi.jpg"],
+  "price": 600,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "Dürüm", "url": "dorum" },
+  "shortDesc": "Kuzu kuşbaşı et ile hazırlanan lavaş dürüm, double şiş.",
+  "metaDesc": "AYS KEBAP Kuzu Kuşbaşı Dürüm Double Şiş — 600₺",
+  "keywords": "kuzu kuşbaşı, dürüm, double şiş, ays kebap",
+  "longDesc": ["Taze kuzu kuşbaşı et, özel baharatlarla hazırlanarak double şiş olarak lavaşa sarılır."],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "Double Şiş", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

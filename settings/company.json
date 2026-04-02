@@ -1,0 +1,33 @@
+{
+  "name": "AYS KEBAP",
+  "legalName": "AYS KEBAP Gıda ve Hizmetleri",
+  "address": [
+    "Sokak/Mahalle Adı No: 1",
+    "İlçe Şehir"
+  ],
+  "map": "https://maps.google.com/?q=adresiniz",
+  "phone": "+90 5XX XXX XX XX",
+  "email": "siparis@alan-adiniz.com",
+  "instagram": "https://instagram.com/kullanici-adiniz",
+  "facebook": "https://facebook.com/kullanici-adiniz",
+  "linkedin": "https://linkedin.com/in/kullanici-adiniz",
+  "whatsapp": "+90 5XX XXX XX XX",
+  "telegram": "@kullanici-adiniz",
+  "slogan": "Lezzet Geleneği, Şimdi Kapınızda",
+  "description": "AYS KEBAP; Adana, Urfa, kuşbaşı ve köfte gibi geleneksel ızgara lezzetlerini taze malzemeler ve özel baharatlarla hazırlayarak kapınıza ulaştırıyor.",
+
+  "currency": "TRY",
+  "currencySymbol": "₺",
+  "priceValidUntilDays": 30,
+
+  "brand": "AYS KEBAP",
+
+  "manufacturer": {
+    "name": "AYS KEBAP Gıda ve Hizmetleri",
+    "identifier": "TRXX-XXXX",
+    "phone": "+905XXXXXXXXX",
+    "address": "Sokak/Mahalle Adı No: 1",
+    "city": "Şehir",
+    "country": "TR"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "v2",
+  "name": "Viski Kadeh Double",
+  "url": "viski-kadeh-double",
+  "images": ["viski-kadeh.jpg"],
+  "price": 520,
+  "weight": { "value": 1, "unit": "kadeh" },
+  "category": { "name": "Viski", "url": "viski" },
+  "shortDesc": "Viski, double kadeh servis.",
+  "metaDesc": "AYS KEBAP Viski Kadeh Double — 520₺",
+  "keywords": "viski, kadeh, double, ays kebap",
+  "longDesc": ["Double kadeh olarak servis edilen viski."],
+  "otherDesc": [
+    { "name": "Servis", "value": "Double Kadeh", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

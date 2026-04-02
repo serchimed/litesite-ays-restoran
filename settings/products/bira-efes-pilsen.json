@@ -1,0 +1,17 @@
+{
+  "id": "b2",
+  "name": "Efes Pilsen",
+  "url": "bira-efes-pilsen",
+  "images": ["bira-efes-pilsen.jpg"],
+  "price": 250,
+  "weight": { "value": 1, "unit": "şişe" },
+  "category": { "name": "Bira", "url": "bira" },
+  "shortDesc": "Soğuk Efes Pilsen bira.",
+  "metaDesc": "AYS KEBAP Efes Pilsen — 250₺",
+  "keywords": "efes pilsen, bira, ays kebap",
+  "longDesc": ["Soğuk servis edilen Efes Pilsen bira."],
+  "otherDesc": [
+    { "name": "Marka", "value": "Efes Pilsen", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

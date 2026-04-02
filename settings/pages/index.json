@@ -1,0 +1,8 @@
+{
+  "title": "Anasayfa | AYS KEBAP",
+  "description": "AYS KEBAP; Adana dürüm, Urfa kebap, kuşbaşı, köfte ve daha fazlasını taze malzemeler ve özel baharatlarla hazırlayarak kapınıza ulaştırıyor.",
+  "keywords": "ays kebap, adana dürüm, urfa dürüm, kebap, ızgara, köfte, kuşbaşı, tavuk şiş, dürüm siparişi",
+  "priority": 1.0,
+  "showOnHeaderMenu": true,
+  "partials": ["hero:headerHero", "hakkimizda_home", "categories"]
+}

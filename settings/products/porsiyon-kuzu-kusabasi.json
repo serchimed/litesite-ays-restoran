@@ -1,0 +1,17 @@
+{
+  "id": "p6",
+  "name": "Kuzu Kuşbaşı Porsiyon",
+  "url": "porsiyon-kuzu-kusabasi",
+  "images": ["porsiyon-kuzu-kusabasi.jpg"],
+  "price": 700,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Porsiyon", "url": "porsiyon" },
+  "shortDesc": "Taze kuzu kuşbaşı et porsiyonu, pilav ve salata ile servis edilir.",
+  "metaDesc": "AYS KEBAP Kuzu Kuşbaşı Porsiyon — 700₺",
+  "keywords": "kuzu kuşbaşı, porsiyon, ays kebap",
+  "longDesc": ["Taze kuzu kuşbaşı et, özel baharatlarla hazırlanarak pilav ve salata ile servis edilir."],
+  "otherDesc": [
+    { "name": "Et", "value": "Kuzu Kuşbaşı", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

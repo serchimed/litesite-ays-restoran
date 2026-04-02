@@ -1,0 +1,17 @@
+{
+  "id": "p1",
+  "name": "Adana Porsiyon (Acılı)",
+  "url": "porsiyon-adana",
+  "images": ["porsiyon-adana.jpg"],
+  "price": 500,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Porsiyon", "url": "porsiyon" },
+  "shortDesc": "Acılı Adana kebap porsiyonu, pilav ve salata ile servis edilir.",
+  "metaDesc": "AYS KEBAP Adana Porsiyon Acılı — 500₺",
+  "keywords": "adana porsiyon, acılı kebap, ays kebap",
+  "longDesc": ["AYS KEBAP'ın özel baharatlarıyla hazırlanan acılı Adana kebap, pilav ve salata eşliğinde servis edilir."],
+  "otherDesc": [
+    { "name": "Lezzet", "value": "Acılı", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

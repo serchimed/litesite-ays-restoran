@@ -1,0 +1,17 @@
+{
+  "id": "ms2",
+  "name": "Çikolata Milkshake",
+  "url": "milkshake-cikolata",
+  "images": ["milkshake-cikolata.jpg"],
+  "price": 260,
+  "weight": { "value": 1, "unit": "bardak" },
+  "category": { "name": "Milkshake & Smoothie", "url": "milkshake-smoothie" },
+  "shortDesc": "Çikolata sosu ve sütle hazırlanan soğuk milkshake.",
+  "metaDesc": "AYS KEBAP Çikolata Milkshake — 260₺",
+  "keywords": "çikolata milkshake, milkshake, ays kebap",
+  "longDesc": ["Zengin çikolata sosu ve soğuk sütle hazırlanan kremalı milkshake."],
+  "otherDesc": [
+    { "name": "Lezzet", "value": "Çikolata", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

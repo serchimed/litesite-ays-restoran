@@ -1,0 +1,17 @@
+{
+  "id": "ic17",
+  "name": "Ayran/Kola/Fanta/Sprite 1LT",
+  "url": "icecek-1lt",
+  "images": ["icecek-1lt.jpg"],
+  "price": 190,
+  "weight": { "value": 1, "unit": "litre" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "1 litrelik boy ayran, kola, fanta veya sprite.",
+  "metaDesc": "AYS KEBAP 1LT İçecek — 190₺",
+  "keywords": "1 litre, ayran, kola, fanta, sprite, içecek, ays kebap",
+  "longDesc": ["Ayran, kola, fanta veya sprite seçeneklerinden birinde 1 litrelik büyük boy içecek."],
+  "otherDesc": [
+    { "name": "Hacim", "value": "1 Litre", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "ap1",
+  "name": "Cips",
+  "url": "aperatif-cips",
+  "images": ["aperatif-cips.jpg"],
+  "price": 180,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Aperatif", "url": "aperatif" },
+  "shortDesc": "Çıtır cips, aperatif olarak servis edilir.",
+  "metaDesc": "AYS KEBAP Cips — 180₺",
+  "keywords": "cips, aperatif, ays kebap",
+  "longDesc": ["Servis öncesi aperatif olarak sunulan çıtır cips."],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "1 Porsiyon", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

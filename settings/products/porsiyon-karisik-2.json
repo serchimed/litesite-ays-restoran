@@ -1,0 +1,17 @@
+{
+  "id": "p11",
+  "name": "Karışık Izgara (2 Kişilik)",
+  "url": "porsiyon-karisik-2",
+  "images": ["porsiyon-karisik.jpg"],
+  "price": 1800,
+  "weight": { "value": 2, "unit": "kişilik" },
+  "category": { "name": "Porsiyon", "url": "porsiyon" },
+  "shortDesc": "Çeşitli ızgara etlerden oluşan 2 kişilik karışık tabak.",
+  "metaDesc": "AYS KEBAP Karışık Izgara 2 Kişilik — 1800₺",
+  "keywords": "karışık ızgara, 2 kişilik, ays kebap",
+  "longDesc": ["Adana, urfa, tavuk şiş ve köftenin bir arada sunulduğu, pilav ve salata eşlikli 2 kişilik karışık ızgara tabak."],
+  "otherDesc": [
+    { "name": "Kişi Sayısı", "value": "2 Kişilik", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}
