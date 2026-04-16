@@ -1,17 +1,20 @@
 {
-  "id": "dt4",
+  "id": "dt9",
   "name": "Et Dönerli Soslu Dürüm (Tek Şiş)",
   "url": "durum-et-donerli-tek",
   "images": ["durum-et-donerli.jpg"],
   "price": 350,
   "weight": { "value": 1, "unit": "adet" },
-  "category": { "name": "Dürüm", "url": "dorum" },
-  "shortDesc": "Et döner ve özel sos ile hazırlanan lavaş dürüm, tek şiş.",
-  "metaDesc": "AYS KEBAP Et Dönerli Soslu Dürüm Tek Şiş — 350₺",
-  "keywords": "et döner, dürüm, tek şiş, ays kebap",
-  "longDesc": ["Et döner ve özel sos ile hazırlanan, doyurucu lavaş dürüm."],
+  "category": { "name": "Dürüm", "url": "durum" },
+  "shortDesc": "Et döner ve özel sosla hazırlanan lavaş dürüm, tek.",
+  "metaDesc": "AYS KEBAP Et Dönerli Soslu Dürüm Tek — 350₺",
+  "keywords": "et döner, soslu dürüm, tek, ays kebap",
+  "longDesc": [
+    "İnce dilimlenmiş et döner, özel sos ile harmanlanarak ince lavaşa sarılır.",
+    "Taze soğan, domates ve turşuyla servis edilen dolu dolu bir dürüm."
+  ],
   "otherDesc": [
-    { "name": "Porsiyon", "value": "Tek Şiş", "type": "spec" }
+    { "name": "Porsiyon", "value": "Tek", "type": "spec" }
   ],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

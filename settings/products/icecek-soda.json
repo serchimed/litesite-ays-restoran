@@ -1,17 +1,15 @@
 {
-  "id": "ic15",
-  "name": "Soda",
+  "id": "dr31",
+  "name": "Soda (Sade/Limon)",
   "url": "icecek-soda",
   "images": ["icecek-soda.jpg"],
   "price": 50,
-  "weight": { "value": 1, "unit": "şişe" },
+  "weight": { "value": 1, "unit": "adet" },
   "category": { "name": "İçecek", "url": "icecek" },
-  "shortDesc": "Soğuk soda.",
-  "metaDesc": "AYS KEBAP Soda — 50₺",
-  "keywords": "soda, içecek, ays kebap",
-  "longDesc": ["Soğuk servis edilen köpüklü soda."],
-  "otherDesc": [
-    { "name": "Tür", "value": "Soda", "type": "spec" }
-  ],
+  "shortDesc": "Sade veya limonlu soda.",
+  "metaDesc": "AYS RESTORANT Soda — 50₺",
+  "keywords": "soda, limon, içecek, ays restorant",
+  "longDesc": ["Sade veya limon aromalı seçeneğiyle sunulan soğuk soda."],
+  "otherDesc": [{ "name": "Seçenek", "value": "Sade / Limon", "type": "spec" }],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

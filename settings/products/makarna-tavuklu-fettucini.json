@@ -1,0 +1,19 @@
+{
+  "id": "m5",
+  "name": "Tavuklu Fettucini",
+  "url": "makarna-tavuklu-fettucini",
+  "images": ["makarna-tavuklu-fettucini.jpg"],
+  "price": 350,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Makarna", "url": "makarna" },
+  "shortDesc": "Kremalı sosla hazırlanan tavuklu fettucini makarna.",
+  "metaDesc": "AYS RESTORANT Tavuklu Fettucini — 350₺",
+  "keywords": "tavuklu fettucini, fettucini, kremalı makarna, ays restorant",
+  "longDesc": [
+    "Izgara tavuk parçaları ve kremamsı sos ile harmanlanan fettucini makarna, doyurucu ve lezzetli bir öğün sunar."
+  ],
+  "otherDesc": [
+    { "name": "İçerik", "value": "Tavuk, Krema", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

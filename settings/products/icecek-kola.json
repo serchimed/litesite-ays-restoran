@@ -1,17 +1,15 @@
 {
-  "id": "ic7",
+  "id": "dr23",
   "name": "Kola",
   "url": "icecek-kola",
   "images": ["icecek-kola.jpg"],
   "price": 90,
-  "weight": { "value": 1, "unit": "kutu/şişe" },
+  "weight": { "value": 1, "unit": "adet" },
   "category": { "name": "İçecek", "url": "icecek" },
   "shortDesc": "Soğuk kola.",
-  "metaDesc": "AYS KEBAP Kola — 90₺",
-  "keywords": "kola, içecek, ays kebap",
-  "longDesc": ["Soğuk servis edilen kola."],
-  "otherDesc": [
-    { "name": "Marka", "value": "Coca-Cola", "type": "spec" }
-  ],
+  "metaDesc": "AYS RESTORANT Kola — 90₺",
+  "keywords": "kola, içecek, ays restorant",
+  "longDesc": ["Buzlu servis edilen soğuk kola."],
+  "otherDesc": [{ "name": "Tür", "value": "Gazlı İçecek", "type": "spec" }],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

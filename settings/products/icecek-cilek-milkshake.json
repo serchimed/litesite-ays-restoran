@@ -1,0 +1,15 @@
+{
+  "id": "dr1",
+  "name": "Çilek Milkshake",
+  "url": "icecek-cilek-milkshake",
+  "images": ["icecek-cilek-milkshake.jpg"],
+  "price": 260,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Taze çilekle hazırlanan kremalı milkshake.",
+  "metaDesc": "AYS RESTORANT Çilek Milkshake — 260₺",
+  "keywords": "çilek milkshake, milkshake, içecek, ays restorant",
+  "longDesc": ["Taze çilek ve dondurmanın buluşmasıyla hazırlanan kremamsı milkshake."],
+  "otherDesc": [{ "name": "Tat", "value": "Çilek", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

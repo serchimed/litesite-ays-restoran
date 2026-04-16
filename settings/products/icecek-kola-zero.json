@@ -1,17 +1,15 @@
 {
-  "id": "ic8",
+  "id": "dr24",
   "name": "Kola Zero",
   "url": "icecek-kola-zero",
   "images": ["icecek-kola-zero.jpg"],
   "price": 90,
-  "weight": { "value": 1, "unit": "kutu/şişe" },
+  "weight": { "value": 1, "unit": "adet" },
   "category": { "name": "İçecek", "url": "icecek" },
-  "shortDesc": "Şekersiz soğuk kola.",
-  "metaDesc": "AYS KEBAP Kola Zero — 90₺",
-  "keywords": "kola zero, şekersiz kola, içecek, ays kebap",
-  "longDesc": ["Şeker içermeyen, soğuk servis edilen kola zero."],
-  "otherDesc": [
-    { "name": "Tür", "value": "Şekersiz", "type": "spec" }
-  ],
+  "shortDesc": "Soğuk kola zero (şekersiz).",
+  "metaDesc": "AYS RESTORANT Kola Zero — 90₺",
+  "keywords": "kola zero, şekersiz, içecek, ays restorant",
+  "longDesc": ["Buzlu servis edilen şekersiz kola zero."],
+  "otherDesc": [{ "name": "Tür", "value": "Şekersiz Gazlı İçecek", "type": "spec" }],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

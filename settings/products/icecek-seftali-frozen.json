@@ -1,0 +1,15 @@
+{
+  "id": "dr4",
+  "name": "Şeftali Frozen",
+  "url": "icecek-seftali-frozen",
+  "images": ["icecek-seftali-frozen.jpg"],
+  "price": 260,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Şeftali aromalı soğuk frozen içecek.",
+  "metaDesc": "AYS RESTORANT Şeftali Frozen — 260₺",
+  "keywords": "şeftali frozen, frozen, içecek, ays restorant",
+  "longDesc": ["Şeftalinin tatlı aromasıyla hazırlanan serinletici frozen içecek."],
+  "otherDesc": [{ "name": "Tat", "value": "Şeftali", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

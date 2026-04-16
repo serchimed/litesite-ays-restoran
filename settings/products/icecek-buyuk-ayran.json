@@ -1,17 +1,15 @@
 {
-  "id": "ic14",
+  "id": "dr30",
   "name": "Büyük Ayran",
   "url": "icecek-buyuk-ayran",
-  "images": ["icecek-ayran.jpg"],
+  "images": ["icecek-buyuk-ayran.jpg"],
   "price": 50,
-  "weight": { "value": 500, "unit": "ml" },
+  "weight": { "value": 1, "unit": "adet" },
   "category": { "name": "İçecek", "url": "icecek" },
   "shortDesc": "Büyük boy soğuk ayran.",
-  "metaDesc": "AYS KEBAP Büyük Ayran — 50₺",
-  "keywords": "ayran, büyük ayran, içecek, ays kebap",
-  "longDesc": ["Soğuk servis edilen büyük boy ayran."],
-  "otherDesc": [
-    { "name": "Boy", "value": "Büyük", "type": "spec" }
-  ],
+  "metaDesc": "AYS RESTORANT Büyük Ayran — 50₺",
+  "keywords": "ayran, büyük, içecek, ays restorant",
+  "longDesc": ["Soğuk servis edilen büyük boy taze ayran."],
+  "otherDesc": [{ "name": "Boy", "value": "Büyük", "type": "spec" }],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

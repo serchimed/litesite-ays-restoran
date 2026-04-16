@@ -9,7 +9,10 @@
   "shortDesc": "Taze kuzu kuşbaşı et porsiyonu, pilav ve salata ile servis edilir.",
   "metaDesc": "AYS KEBAP Kuzu Kuşbaşı Porsiyon — 700₺",
   "keywords": "kuzu kuşbaşı, porsiyon, ays kebap",
-  "longDesc": ["Taze kuzu kuşbaşı et, özel baharatlarla hazırlanarak pilav ve salata ile servis edilir."],
+  "longDesc": [
+    "AYS KEBAP'ta kuzu kuşbaşı, seçme kuzu etinden iri parçalar halinde hazırlanıp mangalın kor ateşinde közlenerek servis edilir; yumuşak dokusu ve kendine özgü aromasıyla öne çıkar.",
+    "Tabağınızda sizi şunlar karşılar: Tereyağlı pilav, közlenmiş domates ve biber, sıcak lavaş, acılı antep ezme, haydari, patlıcan salatası ve biber turşusu. Kuzu etinin nazik lezzetini en saf haliyle deneyimleyin."
+  ],
   "otherDesc": [
     { "name": "Et", "value": "Kuzu Kuşbaşı", "type": "spec" }
   ],

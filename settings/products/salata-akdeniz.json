@@ -1,0 +1,19 @@
+{
+  "id": "s1",
+  "name": "Akdeniz Salatası",
+  "url": "salata-akdeniz",
+  "images": ["salata-akdeniz.jpg"],
+  "price": 250,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Salata", "url": "salata" },
+  "shortDesc": "Taze sebzelerle hazırlanan Akdeniz salatası.",
+  "metaDesc": "AYS KEBAP Akdeniz Salatası — 250₺",
+  "keywords": "akdeniz salatası, salata, ays kebap",
+  "longDesc": [
+    "Taze domates, salatalık, biber, zeytin ve beyaz peynirden oluşan Akdeniz salatası; zeytinyağı ve limon sosuyla hafifçe tatlandırılır."
+  ],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "1 Porsiyon", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

@@ -9,7 +9,10 @@
   "shortDesc": "El yapımı ızgara köfte porsiyonu, pilav ve salata ile servis edilir.",
   "metaDesc": "AYS KEBAP Izgara Köfte Porsiyon — 550₺",
   "keywords": "ızgara köfte, porsiyon, ays kebap",
-  "longDesc": ["Özel baharat karışımıyla hazırlanan el yapımı ızgara köfte, pilav ve salata ile servis edilir."],
+  "longDesc": [
+    "AYS KEBAP'ın ızgara köftesi, taze kıyma ve özel baharat karışımıyla yoğrulup şekillendirildikten sonra mangalda közlenerek mükemmel karamelize dışı ve sulu içiyle servis edilir.",
+    "Tabağınızda sizi şunlar karşılar: Tereyağlı pilav, közlenmiş domates ve biber, sıcak lavaş, acılı antep ezme, haydari, patlıcan salatası ve biber turşusu. Klasik ızgara lezzetinin en doyurucu hali."
+  ],
   "otherDesc": [
     { "name": "Pişirme", "value": "Izgara", "type": "spec" }
   ],

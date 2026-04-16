@@ -5,11 +5,14 @@
   "images": ["durum-dana-kusabasi.jpg"],
   "price": 500,
   "weight": { "value": 1, "unit": "adet" },
-  "category": { "name": "Dürüm", "url": "dorum" },
+  "category": { "name": "Dürüm", "url": "durum" },
   "shortDesc": "Dana kuşbaşı et ile hazırlanan lavaş dürüm, double şiş.",
   "metaDesc": "AYS KEBAP Dana Kuşbaşı Dürüm Double Şiş — 500₺",
   "keywords": "dana kuşbaşı, dürüm, double şiş, ays kebap",
-  "longDesc": ["Taze dana kuşbaşı et, özel baharatlarla marine edilerek double şiş olarak lavaşa sarılır."],
+  "longDesc": [
+    "AYS KEBAP'ta dana kuşbaşı mangalda közlendikten hemen sonra, iri et parçaları taze soğan, domates ve maydanozla birlikte ince lavaşa özenle sarılır.",
+    "Yanında közlenmiş biber ve biber turşusuyla servis edilen bu dürüm, dana etinin dolgun lezzetini her lokmada hissettiriyor."
+  ],
   "otherDesc": [
     { "name": "Porsiyon", "value": "Double Şiş", "type": "spec" }
   ],

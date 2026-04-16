@@ -1,0 +1,15 @@
+{
+  "id": "dr20",
+  "name": "Efes Pilsen",
+  "url": "icecek-efes-pilsen",
+  "images": ["icecek-efes-pilsen.jpg"],
+  "price": 250,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Efes Pilsen bira.",
+  "metaDesc": "AYS RESTORANT Efes Pilsen — 250₺",
+  "keywords": "efes pilsen, bira, içecek, ays restorant",
+  "longDesc": ["Soğuk servis edilen Efes Pilsen bira."],
+  "otherDesc": [{ "name": "Marka", "value": "Efes Pilsen", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

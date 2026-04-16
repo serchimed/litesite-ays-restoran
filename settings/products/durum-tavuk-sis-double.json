@@ -5,11 +5,14 @@
   "images": ["durum-tavuk-sis.jpg"],
   "price": 400,
   "weight": { "value": 1, "unit": "adet" },
-  "category": { "name": "Dürüm", "url": "dorum" },
+  "category": { "name": "Dürüm", "url": "durum" },
   "shortDesc": "Marine edilmiş tavuk şiş ile hazırlanan lavaş dürüm, double şiş.",
   "metaDesc": "AYS KEBAP Tavuk Şiş Dürüm Double Şiş — 400₺",
   "keywords": "tavuk şiş, dürüm, double şiş, ays kebap",
-  "longDesc": ["Özel marinad ile hazırlanan tavuk şiş, lavaş ekmeğe double şiş olarak sarılarak servis edilir."],
+  "longDesc": [
+    "AYS KEBAP'ın marine edilmiş tavuk şişi mangalda közlendikten sonra, sıcak et parçaları taze soğan, domates ve maydanozla birlikte ince lavaşa ustalıkla sarılır.",
+    "Yanında közlenmiş biber ve biber turşusuyla servis edilen bu dürüm, tavuğun yumuşak ve sulu dokusunu her lokmada hissettiriyor."
+  ],
   "otherDesc": [
     { "name": "Porsiyon", "value": "Double Şiş", "type": "spec" }
   ],

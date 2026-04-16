@@ -1,17 +1,15 @@
 {
-  "id": "ic16",
-  "name": "Şalgam",
+  "id": "dr32",
+  "name": "Şalgam (Acılı/Acısız)",
   "url": "icecek-salgam",
   "images": ["icecek-salgam.jpg"],
   "price": 70,
-  "weight": { "value": 1, "unit": "bardak" },
+  "weight": { "value": 1, "unit": "adet" },
   "category": { "name": "İçecek", "url": "icecek" },
-  "shortDesc": "Geleneksel ekşi şalgam suyu.",
-  "metaDesc": "AYS KEBAP Şalgam — 70₺",
-  "keywords": "şalgam, şalgam suyu, içecek, ays kebap",
-  "longDesc": ["Geleneksel yöntemle hazırlanan, ekşi ve ferahlatıcı şalgam suyu."],
-  "otherDesc": [
-    { "name": "Tür", "value": "Şalgam Suyu", "type": "spec" }
-  ],
+  "shortDesc": "Acılı veya acısız şalgam suyu.",
+  "metaDesc": "AYS RESTORANT Şalgam — 70₺",
+  "keywords": "şalgam, acılı, acısız, içecek, ays restorant",
+  "longDesc": ["Acılı veya acısız seçeneğiyle sunulan geleneksel şalgam suyu."],
+  "otherDesc": [{ "name": "Seçenek", "value": "Acılı / Acısız", "type": "spec" }],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

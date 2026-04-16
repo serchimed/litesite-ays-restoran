@@ -1,0 +1,19 @@
+{
+  "id": "m4",
+  "name": "Penne Alla Pesto",
+  "url": "makarna-penne-alla-pesto",
+  "images": ["makarna-penne-alla-pesto.jpg"],
+  "price": 380,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Makarna", "url": "makarna" },
+  "shortDesc": "Taze fesleğen pesto sosuyla hazırlanan penne makarna.",
+  "metaDesc": "AYS RESTORANT Penne Alla Pesto — 380₺",
+  "keywords": "penne alla pesto, pesto, makarna, ays restorant",
+  "longDesc": [
+    "Taze fesleğen, çam fıstığı ve parmesan peyniriyle hazırlanan pesto sos, penne makarnasıyla mükemmel bir uyum sağlar."
+  ],
+  "otherDesc": [
+    { "name": "Sos", "value": "Pesto", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "m1",
+  "name": "Kremalı Tavuklu Mantarlı Makarna",
+  "url": "makarna-kremali-tavuklu-mantar",
+  "images": ["makarna-kremali-tavuklu-mantar.jpg"],
+  "price": 550,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Makarna", "url": "makarna" },
+  "shortDesc": "Kremalı sosla hazırlanan tavuklu mantarlı makarna.",
+  "metaDesc": "AYS RESTORANT Kremalı Tavuklu Mantarlı Makarna — 550₺",
+  "keywords": "kremalı makarna, tavuklu makarna, mantarlı makarna, ays restorant",
+  "longDesc": [
+    "Izgara tavuk parçaları ve taze mantarların kremamsı sos ile buluştuğu bu makarna, doyurucu ve lezzetli bir öğün sunar.",
+    "Üzerine rendelenmiş parmesan peyniri serpilerek servis edilir."
+  ],
+  "otherDesc": [
+    { "name": "İçerik", "value": "Tavuk, Mantar, Krema", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

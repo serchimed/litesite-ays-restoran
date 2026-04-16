@@ -1,0 +1,15 @@
+{
+  "id": "dr3",
+  "name": "Muz Milkshake",
+  "url": "icecek-muz-milkshake",
+  "images": ["icecek-muz-milkshake.jpg"],
+  "price": 260,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Muzlu kremalı milkshake.",
+  "metaDesc": "AYS RESTORANT Muz Milkshake — 260₺",
+  "keywords": "muz milkshake, milkshake, içecek, ays restorant",
+  "longDesc": ["Taze muz ve dondurmanın buluşmasıyla hazırlanan kremamsı milkshake."],
+  "otherDesc": [{ "name": "Tat", "value": "Muz", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

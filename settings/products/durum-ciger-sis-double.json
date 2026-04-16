@@ -1,0 +1,20 @@
+{
+  "id": "dd6",
+  "name": "Ciğer Şiş Dürüm (Double Şiş)",
+  "url": "durum-ciger-sis-double",
+  "images": ["durum-ciger-sis.jpg"],
+  "price": 500,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "Dürüm", "url": "durum" },
+  "shortDesc": "Taze ciğer şiş ile hazırlanan lavaş dürüm, double şiş.",
+  "metaDesc": "AYS KEBAP Ciğer Şiş Dürüm Double Şiş — 500₺",
+  "keywords": "ciğer şiş, dürüm, double şiş, ays kebap",
+  "longDesc": [
+    "AYS KEBAP'ta ciğer şiş dürüm, günlük taze teslim alınan dana ciğerinden hazırlanır; mangalın yüksek ısısında hızlıca közlenerek ince lavaşa sarılır.",
+    "Yanında taze soğan, domates, maydanoz ve biber turşusuyla servis edilen bu dürüm, ciğer severlerin vazgeçilmez tercihi."
+  ],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "Double Şiş", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

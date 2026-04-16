@@ -9,7 +9,10 @@
   "shortDesc": "Marine edilmiş ızgara tavuk, pilav ve salata ile servis edilir.",
   "metaDesc": "AYS KEBAP Tavuk Izgara — 500₺",
   "keywords": "tavuk ızgara, porsiyon, ays kebap",
-  "longDesc": ["Özel marinad ile hazırlanan bütün tavuk ızgara, pilav ve salata eşliğinde servis edilir."],
+  "longDesc": [
+    "AYS KEBAP'ın tavuk ızgarası, marine edilmiş taze tavuk eti mangalda ustalıkla pişirilerek dışının güzelce kızarması sağlanır; içi ise sulu ve yumuşak kalır.",
+    "Tabağınızda sizi şunlar karşılar: Tereyağlı pilav, közlenmiş domates ve biber, sıcak lavaş, acılı antep ezme, haydari, patlıcan salatası ve biber turşusu. Hafif tercih edenlerin gözdesi."
+  ],
   "otherDesc": [
     { "name": "Pişirme", "value": "Izgara", "type": "spec" }
   ],

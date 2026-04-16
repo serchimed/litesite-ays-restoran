@@ -1,0 +1,15 @@
+{
+  "id": "dr22",
+  "name": "Miller",
+  "url": "icecek-miller",
+  "images": ["icecek-miller.jpg"],
+  "price": 275,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Miller bira.",
+  "metaDesc": "AYS RESTORANT Miller — 275₺",
+  "keywords": "miller, bira, içecek, ays restorant",
+  "longDesc": ["Soğuk servis edilen Miller bira."],
+  "otherDesc": [{ "name": "Marka", "value": "Miller", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

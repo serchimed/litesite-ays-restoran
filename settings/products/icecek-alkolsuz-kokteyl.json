@@ -1,17 +1,15 @@
 {
-  "id": "ic4",
+  "id": "dr18",
   "name": "Alkolsüz Kokteyl",
   "url": "icecek-alkolsuz-kokteyl",
   "images": ["icecek-alkolsuz-kokteyl.jpg"],
   "price": 400,
-  "weight": { "value": 1, "unit": "bardak" },
+  "weight": { "value": 1, "unit": "adet" },
   "category": { "name": "İçecek", "url": "icecek" },
-  "shortDesc": "Özel karışım alkolsüz kokteyl.",
-  "metaDesc": "AYS KEBAP Alkolsüz Kokteyl — 400₺",
-  "keywords": "alkolsüz kokteyl, kokteyl, içecek, ays kebap",
-  "longDesc": ["Meyve suları ve özel karışımla hazırlanan, sunumlu alkolsüz kokteyl."],
-  "otherDesc": [
-    { "name": "Tür", "value": "Alkolsüz", "type": "spec" }
-  ],
+  "shortDesc": "Alkolsüz özel kokteyl.",
+  "metaDesc": "AYS RESTORANT Alkolsüz Kokteyl — 400₺",
+  "keywords": "alkolsüz kokteyl, kokteyl, içecek, ays restorant",
+  "longDesc": ["Taze meyve suları ve şuruplarla hazırlanan ferahlatıcı alkolsüz kokteyl."],
+  "otherDesc": [{ "name": "Tür", "value": "Alkolsüz", "type": "spec" }],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

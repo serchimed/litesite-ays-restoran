@@ -1,0 +1,15 @@
+{
+  "id": "dr8",
+  "name": "Muz Smoothie",
+  "url": "icecek-muz-smoothie",
+  "images": ["icecek-muz-smoothie.jpg"],
+  "price": 260,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Muzlu smoothie.",
+  "metaDesc": "AYS RESTORANT Muz Smoothie — 260₺",
+  "keywords": "muz smoothie, smoothie, içecek, ays restorant",
+  "longDesc": ["Taze muzun kremamsı dokusuyla hazırlanan, enerji dolu smoothie."],
+  "otherDesc": [{ "name": "Tat", "value": "Muz", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

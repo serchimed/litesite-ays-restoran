@@ -1,0 +1,15 @@
+{
+  "id": "dr2",
+  "name": "Çikolata Milkshake",
+  "url": "icecek-cikolata-milkshake",
+  "images": ["icecek-cikolata-milkshake.jpg"],
+  "price": 260,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Çikolatalı kremalı milkshake.",
+  "metaDesc": "AYS RESTORANT Çikolata Milkshake — 260₺",
+  "keywords": "çikolata milkshake, milkshake, içecek, ays restorant",
+  "longDesc": ["Çikolata ve dondurmanın buluşmasıyla hazırlanan kremalı milkshake."],
+  "otherDesc": [{ "name": "Tat", "value": "Çikolata", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

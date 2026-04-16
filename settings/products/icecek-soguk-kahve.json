@@ -1,17 +1,15 @@
 {
-  "id": "ic5",
+  "id": "dr34",
   "name": "Soğuk Kahve",
   "url": "icecek-soguk-kahve",
   "images": ["icecek-soguk-kahve.jpg"],
   "price": 175,
-  "weight": { "value": 1, "unit": "bardak" },
+  "weight": { "value": 1, "unit": "adet" },
   "category": { "name": "İçecek", "url": "icecek" },
-  "shortDesc": "Soğuk servis edilen, ferahlatıcı buzlu kahve.",
-  "metaDesc": "AYS KEBAP Soğuk Kahve — 175₺",
-  "keywords": "soğuk kahve, buzlu kahve, içecek, ays kebap",
-  "longDesc": ["Özel karışım kahve, buzla soğutularak servis edilir."],
-  "otherDesc": [
-    { "name": "Servis", "value": "Soğuk", "type": "spec" }
-  ],
+  "shortDesc": "Soğuk servis edilen özel kahve.",
+  "metaDesc": "AYS RESTORANT Soğuk Kahve — 175₺",
+  "keywords": "soğuk kahve, iced coffee, içecek, ays restorant",
+  "longDesc": ["Buz üzerinde servis edilen ferahlatıcı soğuk kahve."],
+  "otherDesc": [{ "name": "Servis", "value": "Soğuk", "type": "spec" }],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

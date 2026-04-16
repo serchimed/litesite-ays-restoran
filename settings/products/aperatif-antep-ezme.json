@@ -1,0 +1,15 @@
+{
+  "id": "ap8",
+  "name": "Acılı Antep Ezme",
+  "url": "aperatif-antep-ezme",
+  "images": ["aperatif-antep-ezme.jpg"],
+  "price": 150,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Aperatif", "url": "aperatif" },
+  "shortDesc": "Acılı Antep usulü domates ezme.",
+  "metaDesc": "AYS RESTORANT Acılı Antep Ezme — 150₺",
+  "keywords": "antep ezme, acılı ezme, aperatif, ays restorant",
+  "longDesc": ["Taze domates, biber ve baharatlarla hazırlanan geleneksel Antep usulü acılı ezme."],
+  "otherDesc": [{ "name": "Porsiyon", "value": "1 Porsiyon", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "dr7",
+  "name": "Çikolata Smoothie",
+  "url": "icecek-cikolata-smoothie",
+  "images": ["icecek-cikolata-smoothie.jpg"],
+  "price": 260,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Çikolatalı smoothie.",
+  "metaDesc": "AYS RESTORANT Çikolata Smoothie — 260₺",
+  "keywords": "çikolata smoothie, smoothie, içecek, ays restorant",
+  "longDesc": ["Çikolata ve muz bazlı kremamsı smoothie; enerji verici ve doyurucu."],
+  "otherDesc": [{ "name": "Tat", "value": "Çikolata", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

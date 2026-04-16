@@ -1,0 +1,15 @@
+{
+  "id": "dr21",
+  "name": "Corona",
+  "url": "icecek-corona",
+  "images": ["icecek-corona.jpg"],
+  "price": 275,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Corona bira.",
+  "metaDesc": "AYS RESTORANT Corona — 275₺",
+  "keywords": "corona, bira, içecek, ays restorant",
+  "longDesc": ["Limon dilimiyle servis edilen soğuk Corona bira."],
+  "otherDesc": [{ "name": "Marka", "value": "Corona", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

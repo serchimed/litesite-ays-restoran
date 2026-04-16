@@ -1,17 +1,15 @@
 {
-  "id": "ic12",
+  "id": "dr28",
   "name": "Küçük Su",
   "url": "icecek-kucuk-su",
-  "images": ["icecek-su.jpg"],
+  "images": ["icecek-kucuk-su.jpg"],
   "price": 30,
-  "weight": { "value": 330, "unit": "ml" },
+  "weight": { "value": 1, "unit": "adet" },
   "category": { "name": "İçecek", "url": "icecek" },
-  "shortDesc": "330 ml soğuk su.",
-  "metaDesc": "AYS KEBAP Küçük Su — 30₺",
-  "keywords": "su, küçük su, içecek, ays kebap",
-  "longDesc": ["330 ml soğuk maden suyu."],
-  "otherDesc": [
-    { "name": "Hacim", "value": "330 ml", "type": "spec" }
-  ],
+  "shortDesc": "Küçük şişe su.",
+  "metaDesc": "AYS RESTORANT Küçük Su — 30₺",
+  "keywords": "su, küçük su, içecek, ays restorant",
+  "longDesc": ["Soğuk servis edilen küçük şişe su."],
+  "otherDesc": [{ "name": "Tür", "value": "Su", "type": "spec" }],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }
