@@ -9,7 +9,10 @@
   "pagesDir": "pages",
   "productsDir": "products",
   "isCategoryCollapsable": true,
-  "convertImagesToWebp": false,
+  "isFiltering": true,
+  "isTelegramOrder": false,
+  "isBasketDesc": false,
+  "paymentOptions": ["Nakit", "Kredi Kartı"],
   "productSections": [
     { "key": "corba",              "label": "Çorbalar" },
     { "key": "dorum",              "label": "Dürümler" },
@@ -40,7 +43,7 @@
   "assets": {
     "css": ["css/base.css", "css/layout.css",
             "css/page.css", "css/product.css", "css/basket.css"],
-    "js": ["js/lazy.js", "js/off.js", "js/menu.js", "js/helper.js", "js/basket.js", "js/animate.js"],
+    "js": ["js/lazy.js", "js/off.js", "js/navmenu.js", "js/helper.js", "js/basket.js", "js/animate.js"],
     "cssOutput": "site.css",
     "jsOutput": "site.js"
   },
@@ -73,6 +76,18 @@
     "whatsAppOrder": "WhatsApp'tan Siparişini İlet",
     "whatsAppGreeting": "Merhaba, sipariş vermek istiyorum:",
     "telegramOrder": "Telegram'dan Siparişini İlet",
-    "telegramGreeting": "Merhaba, sipariş vermek istiyorum:"
+    "telegramGreeting": "Merhaba, sipariş vermek istiyorum:",
+    "waiterLabel": "Garson",
+    "tableLabel": "Masa",
+    "filterAll": "Tümü",
+    "categories": "Kategoriler",
+    "tags": "Etiketler",
+    "basketDescPlaceholder": "Not ekle (isteğe bağlı)",
+    "basketDescTooltip": "Belirtmek istediğiniz bir şey varsa WhatsApp'tan da mesaj gönderebilirsiniz.",
+    "paymentLabel": "Ödeme Yöntemi",
+    "noteLabel": "Not",
+    "happyHourTimezoneWarning": "Bu indirim restoran saatine göredir. Cihazınızın saati farklı olabilir.",
+    "discountProgressPrefix": "daha fazla al,",
+    "discountProgressSuffix": "indirim kazan"
   }
 }

@@ -40,37 +40,7 @@ el.style.visibility = "hidden";
 });
 });
 let _nav = document.querySelector("nav");
-let _btn = document.getElementById("menu-btn");
-let _icon = document.getElementById("menu-icon");
-let _header = document.querySelector("header");
-if (_btn && _nav) {
-_btn.addEventListener("click", function() {
-_nav.classList.toggle("open");
-if (_icon) {
-_icon.src = _nav.classList.contains("open") ? "/img/menu-close.png" : "/img/menu-open.png";
-}
-});
-_nav.querySelectorAll("a").forEach(function(a) {
-a.addEventListener("click", function() {
-_nav.classList.remove("open");
-if (_icon) { _icon.src = "/img/menu-open.png"; }
-});
-});
-}
-if (_header) {
-var _hasHero = document.querySelector(".hero");
-if (!_hasHero) {
-_header.classList.add("scrolled");
-}
-window.addEventListener("scroll", function() {
-if (!_hasHero) { return; }
-if (window.scrollY > 50) {
-_header.classList.add("scrolled");
-} else {
-_header.classList.remove("scrolled");
-}
-}, { passive: true });
-}
+if (_nav) { _nav.addEventListener("click", function(e) { if (e.target === this) { this.classList.toggle("open"); } }); }
 function _el(tag, cls) {
 let e = document.createElement(tag);
 if (cls) { e.className = cls; }
@@ -121,14 +91,16 @@ e.setAttribute("data-id", id);
 return e;
 }
 let PRODUCTS={"ap3":{"name":"Acılı Antep Ezme","price":150,"weight":1,"img":"aperatif-acili-antep-ezme.jpg"},"ap2":{"name":"Bulgur Pilavı","price":150,"weight":1,"img":"aperatif-bulgur-pilavi.jpg"},"ap1":{"name":"Cips","price":180,"weight":1,"img":"aperatif-cips.jpg"},"ap5":{"name":"Çoban Salata","price":200,"weight":1,"img":"aperatif-coban-salata.jpg"},"ap4":{"name":"Haydari","price":150,"weight":1,"img":"aperatif-haydari.jpg"},"ap6":{"name":"Yoğurt","price":150,"weight":1,"img":"aperatif-yogurt.jpg"},"b3":{"name":"Corona","price":275,"weight":1,"img":"bira-corona.jpg"},"b1":{"name":"Efes Malt","price":250,"weight":1,"img":"bira-efes-malt.jpg"},"b2":{"name":"Efes Pilsen","price":250,"weight":1,"img":"bira-efes-pilsen.jpg"},"b4":{"name":"Miller","price":275,"weight":1,"img":"bira-miller.jpg"},"c1":{"name":"Mercimek Çorbası","price":120,"weight":1,"img":"corba-mercimek.jpg"},"dd1":{"name":"Adana Dürüm (Double Şiş)","price":500,"weight":1,"img":"durum-adana.jpg"},"dt1":{"name":"Adana Dürüm (Tek Şiş)","price":350,"weight":1,"img":"durum-adana.jpg"},"dd7":{"name":"AYS Tavuk Dürüm (Double Şiş)","price":400,"weight":1,"img":"durum-ays-tavuk.jpg"},"dt7":{"name":"AYS Tavuk Dürüm (Tek Şiş)","price":300,"weight":1,"img":"durum-ays-tavuk.jpg"},"dd6":{"name":"Çıtır Tavuk Dürüm (Double Şiş)","price":400,"weight":1,"img":"durum-citir-tavuk.jpg"},"dt6":{"name":"Çıtır Tavuk Dürüm (Tek Şiş)","price":300,"weight":1,"img":"durum-citir-tavuk.jpg"},"dd3":{"name":"Dana Kuşbaşı Dürüm (Double Şiş)","price":500,"weight":1,"img":"durum-dana-kusabasi.jpg"},"dt3":{"name":"Dana Kuşbaşı Dürüm (Tek Şiş)","price":400,"weight":1,"img":"durum-dana-kusabasi.jpg"},"dd4":{"name":"Et Dönerli Soslu Dürüm (Double Şiş)","price":500,"weight":1,"img":"durum-et-donerli.jpg"},"dt4":{"name":"Et Dönerli Soslu Dürüm (Tek Şiş)","price":350,"weight":1,"img":"durum-et-donerli.jpg"},"dd9":{"name":"Köfte Dürüm (Double Şiş)","price":500,"weight":1,"img":"durum-kofte.jpg"},"dt9":{"name":"Köfte Dürüm (Tek Şiş)","price":350,"weight":1,"img":"durum-kofte.jpg"},"dd8":{"name":"Kuzu Kuşbaşı Dürüm (Double Şiş)","price":600,"weight":1,"img":"durum-kuzu-kusabasi.jpg"},"dt8":{"name":"Kuzu Kuşbaşı Dürüm (Tek Şiş)","price":400,"weight":1,"img":"durum-kuzu-kusabasi.jpg"},"dd5":{"name":"Tavuk Şiş Dürüm (Double Şiş)","price":400,"weight":1,"img":"durum-tavuk-sis.jpg"},"dt5":{"name":"Tavuk Şiş Dürüm (Tek Şiş)","price":300,"weight":1,"img":"durum-tavuk-sis.jpg"},"dd2":{"name":"Urfa Dürüm (Double Şiş)","price":500,"weight":1,"img":"durum-urfa.jpg"},"dt2":{"name":"Urfa Dürüm (Tek Şiş)","price":350,"weight":1,"img":"durum-urfa.jpg"},"ms5":{"name":"Çilek Frozen","price":260,"weight":1,"img":"frozen-cilek.jpg"},"ms4":{"name":"Şeftali Frozen","price":260,"weight":1,"img":"frozen-seftali.jpg"},"ic17":{"name":"Ayran/Kola/Fanta/Sprite 1LT","price":190,"weight":1,"img":"icecek-1lt.jpg"},"ic3":{"name":"Alkollü Kokteyl","price":520,"weight":1,"img":"icecek-alkol-kokteyl.jpg"},"ic4":{"name":"Alkolsüz Kokteyl","price":400,"weight":1,"img":"icecek-alkolsuz-kokteyl.jpg"},"ic14":{"name":"Büyük Ayran","price":50,"weight":500,"img":"icecek-ayran.jpg"},"ic2":{"name":"Çilekli Limonata","price":150,"weight":1,"img":"icecek-cilekli-limonata.jpg"},"ic9":{"name":"Fanta","price":90,"weight":1,"img":"icecek-fanta.jpg"},"ic11":{"name":"Fuse Tea","price":90,"weight":1,"img":"icecek-fuse-tea.jpg"},"ic7":{"name":"Kola","price":90,"weight":1,"img":"icecek-kola.jpg"},"ic8":{"name":"Kola Zero","price":90,"weight":1,"img":"icecek-kola-zero.jpg"},"ic13":{"name":"Küçük Ayran","price":40,"weight":200,"img":"icecek-ayran.jpg"},"ic12":{"name":"Küçük Su","price":30,"weight":330,"img":"icecek-su.jpg"},"ic1":{"name":"Limonata","price":120,"weight":1,"img":"icecek-limonata.jpg"},"ic16":{"name":"Şalgam","price":70,"weight":1,"img":"icecek-salgam.jpg"},"ic6":{"name":"Sıcak Kahve","price":175,"weight":1,"img":"icecek-sicak-kahve.jpg"},"ic15":{"name":"Soda","price":50,"weight":1,"img":"icecek-soda.jpg"},"ic5":{"name":"Soğuk Kahve","price":175,"weight":1,"img":"icecek-soguk-kahve.jpg"},"ic10":{"name":"Sprite","price":90,"weight":1,"img":"icecek-sprite.jpg"},"ms2":{"name":"Çikolata Milkshake","price":260,"weight":1,"img":"milkshake-cikolata.jpg"},"ms1":{"name":"Çilek Milkshake","price":260,"weight":1,"img":"milkshake-cilek.jpg"},"ms3":{"name":"Muz Milkshake","price":260,"weight":1,"img":"milkshake-muz.jpg"},"p1":{"name":"Adana Porsiyon (Acılı)","price":500,"weight":1,"img":"porsiyon-adana.jpg"},"p5":{"name":"Ciğer Şiş Porsiyon","price":600,"weight":1,"img":"porsiyon-ciger-sis.jpg"},"p3":{"name":"Dana Kuşbaşı Porsiyon","price":550,"weight":1,"img":"porsiyon-dana-kusabasi.jpg"},"p7":{"name":"Izgara Köfte Porsiyon","price":550,"weight":1,"img":"porsiyon-izgara-kofte.jpg"},"p8":{"name":"Kanat Porsiyon","price":500,"weight":1,"img":"porsiyon-kanat.jpg"},"p11":{"name":"Karışık Izgara (2 Kişilik)","price":1800,"weight":2,"img":"porsiyon-karisik.jpg"},"p12":{"name":"Karışık Izgara (4 Kişilik)","price":3000,"weight":4,"img":"porsiyon-karisik.jpg"},"p6":{"name":"Kuzu Kuşbaşı Porsiyon","price":700,"weight":1,"img":"porsiyon-kuzu-kusabasi.jpg"},"p9":{"name":"Kuzu Pirzola Şiş Porsiyon","price":1100,"weight":1,"img":"porsiyon-kuzu-pirzola.jpg"},"p10":{"name":"Tavuk Izgara","price":500,"weight":1,"img":"porsiyon-tavuk-izgara.jpg"},"p4":{"name":"Tavuk Şiş Porsiyon","price":500,"weight":1,"img":"porsiyon-tavuk-sis.jpg"},"p2":{"name":"Urfa Porsiyon (Acısız)","price":500,"weight":1,"img":"porsiyon-urfa.jpg"},"r2":{"name":"Rakı Kadeh Double","price":400,"weight":1,"img":"raki-kadeh.jpg"},"r1":{"name":"Rakı Kadeh Tek","price":250,"weight":1,"img":"raki-kadeh.jpg"},"r3":{"name":"Rakı Şişe 70 Cl","price":2500,"weight":700,"img":"raki-sise.jpg"},"s1":{"name":"Şarap (Kadeh)","price":400,"weight":1,"img":"sarap-kadeh.jpg"},"s2":{"name":"Şarap (Şişe)","price":2000,"weight":1,"img":"sarap-sise.jpg"},"ms7":{"name":"Çikolata Smoothie","price":260,"weight":1,"img":"smoothie-cikolata.jpg"},"ms6":{"name":"Çilek Smoothie","price":260,"weight":1,"img":"smoothie-cilek.jpg"},"ms8":{"name":"Muz Smoothie","price":260,"weight":1,"img":"smoothie-muz.jpg"},"v2":{"name":"Viski Kadeh Double","price":520,"weight":1,"img":"viski-kadeh.jpg"},"v1":{"name":"Viski Kadeh Tek","price":400,"weight":1,"img":"viski-kadeh.jpg"},"v3":{"name":"Viski Şişe 70 Cl","price":5000,"weight":700,"img":"viski-sise.jpg"}};
-let BASKET_CONFIG={"warning":"Ürünlerinizi sepete ekledikten sonra,<br/>'WhatsApp'tan Siparişini İlet' butonuna tıklayarak<br/>siparişinizi ve adres bilgilerinizi tarafımıza iletebilir,<br/>alışverişinizi kolayca tamamlayabilirsiniz.","waWarning":"WhatsApp kullanmıyorsanız,<br/>sipariş ve sorularınız için bize siparis@alan-adiniz.com adresimizden ulaşabilirsiniz.","shippingWarning":"Yakın çevredeki siparişlerde teslimat ücretsizdir.","currency":"₺","waNumber":"905XXXXXXXXX","tgUsername":"kullanici-adiniz","productsPage":"/pages/urunlerimiz.html","labels":{"addToBasket":"Sepete Ekle","basket":"Sepet","myBasket":"Sepetim","itemSuffix":"ürün","for":"için","openBasket":"Sepeti Aç","closeBasket":"Sepeti Kapat","subtotal":"Ara Toplam","shipping":"Teslimat","freeShipping":"Ücretsiz","total":"Toplam","delete":"Sil","unit":"Adet","whatsAppOrder":"WhatsApp'tan Siparişini İlet","whatsAppGreeting":"Merhaba, sipariş vermek istiyorum:","telegramOrder":"Telegram'dan Siparişini İlet","telegramGreeting":"Merhaba, sipariş vermek istiyorum:","emptyBasket":"Sepetinizde henüz ürün yok","productsLinkText":"Menümüz","emptyBasketDesc":"sayfasını ziyaret ederek beğendiğiniz ürünleri sepetinize ekleyebilirsiniz."}};
+let BASKET_CONFIG={"warning":"Ürünlerinizi sepete ekledikten sonra,<br/>'WhatsApp'tan Siparişini İlet' butonuna tıklayarak<br/>siparişinizi ve adres bilgilerinizi tarafımıza iletebilir,<br/>alışverişinizi kolayca tamamlayabilirsiniz.","waWarning":"WhatsApp kullanmıyorsanız,<br/>sipariş ve sorularınız için bize siparis@alan-adiniz.com adresimizden ulaşabilirsiniz.","shippingWarning":"Yakın çevredeki siparişlerde teslimat ücretsizdir.","isBasketDesc":false,"paymentOptions":["Nakit", "Kredi Kartı"],"currency":"₺","waNumber":"905XXXXXXXXX","productsPage":"","labels":{"addToBasket":"Sepete Ekle","basket":"Sepet","myBasket":"Sepetim","itemSuffix":"ürün","for":"için","openBasket":"Sepeti Aç","closeBasket":"Sepeti Kapat","subtotal":"Ara Toplam","shipping":"Teslimat","freeShipping":"Ücretsiz","total":"Toplam","delete":"Sil","unit":"Adet","whatsAppOrder":"WhatsApp'tan Siparişini İlet","whatsAppGreeting":"Merhaba, sipariş vermek istiyorum:","telegramOrder":"Telegram'dan Siparişini İlet","telegramGreeting":"Merhaba, sipariş vermek istiyorum:","emptyBasket":"Sepetinizde henüz ürün yok","productsLinkText":"Menümüz","emptyBasketDesc":"sayfasını ziyaret ederek beğendiğiniz ürünleri sepetinize ekleyebilirsiniz.","waiterLabel":"Garson","tableLabel":"Masa","basketDescPlaceholder":"Not ekle (isteğe bağlı)","basketDescTooltip":"Belirtmek istediğiniz bir şey varsa WhatsApp'tan da mesaj gönderebilirsiniz.","paymentLabel":"Ödeme Yöntemi","noteLabel":"Not","happyHourTimezoneWarning":"Bu indirim restoran saatine göredir. Cihazınızın saati farklı olabilir.","discountProgressPrefix":"daha fazla al,","discountProgressSuffix":"indirim kazan"}};
+let CAMPAIGN_CONFIG = [];
+window.TABLE_NO = (new URLSearchParams(location.search)).get('t') || '';
+window.WAITER_NAME = localStorage.getItem('waiter') || '';
 (function() {
 let basketSection = document.getElementById("basket");
 if (!basketSection) { return; }
 let C = BASKET_CONFIG;
 let warningText = C.warning || "";
 let waWarningText = C.waWarning || "";
-let shippingWarningText = C.shippingWarning || "";
 let currencySymbol = C.currency || "\u20BA";
 let waNumber = C.waNumber || "";
 let tgUsername = C.tgUsername || "";
@@ -137,9 +109,9 @@ let L = function(k) { return labels[k]; };
 let addToBasketText = L("addToBasket");
 let badge;
 let basketOpen = false;
-let emptyEl, descEl, wrapEl, toggleBtnEl, toggleInfoEl, contentEl, itemsEl, totalsEl;
-let lastItems, lastSubtotal, lastShipping, lastTotal;
-let cachedLinks;
+let lastQty = 0;
+let navEl;
+let emptyEl, descEl, wrapEl, toggleBtnEl, toggleInfoEl, contentEl, itemsEl, totalsEl, descInputEl;
 function getCart() {
 let params = new URLSearchParams(location.search);
 let cart = {};
@@ -165,12 +137,6 @@ let qs = params.toString();
 let url = location.pathname + (qs ? "?" + qs : "") + location.hash;
 history.replaceState(null, "", url);
 render();
-}
-function getTotalQty(cart) {
-if (!cart) { cart = getCart(); }
-let total = 0;
-for (let id in cart) total += cart[id];
-return total;
 }
 function getItems(cart) {
 if (!cart) { cart = getCart(); }
@@ -204,11 +170,164 @@ let cart = getCart();
 delete cart[id];
 setCart(cart);
 }
+function calcSubtotal(items) {
+let s = 0;
+for (let i = 0; i < items.length; i++) { s += items[i].price * items[i].quantity; }
+return s;
+}
+function filterDiscountLines(lines) {
+let result = [];
+for (let i = 0; i < lines.length; i++) { if (!lines[i].isFree) { result.push(lines[i]); } }
+return result;
+}
+function totalWeightKg(items) {
+let w = 0;
+for (let i = 0; i < items.length; i++) { w += items[i].weight * items[i].quantity; }
+return w / 1000;
+}
+function getShopTime() {
+let tz = C.timezone || "";
+let now = new Date();
+if (!tz) { return { h: now.getHours(), m: now.getMinutes(), day: now.getDay() }; }
+let parts = new Intl.DateTimeFormat("en-US", {
+timeZone: tz, hour: "2-digit", minute: "2-digit", weekday: "short", hour12: false
+}).formatToParts(now);
+let h = 0, m = 0, dayStr = "";
+for (let i = 0; i < parts.length; i++) {
+if (parts[i].type === "hour") { h = parseInt(parts[i].value, 10); }
+if (parts[i].type === "minute") { m = parseInt(parts[i].value, 10); }
+if (parts[i].type === "weekday") { dayStr = parts[i].value; }
+}
+let dayMap = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+return { h: h, m: m, day: (dayMap[dayStr] !== undefined ? dayMap[dayStr] : now.getDay()) };
+}
+function calculateDiscount(items, subtotal) {
+let totalDiscount = 0;
+let lines = [];
+let freeShipping = false;
+let happyHourActive = false;
+let hints = [];
+for (let ci = 0; ci < CAMPAIGN_CONFIG.length; ci++) {
+let c = CAMPAIGN_CONFIG[ci];
+if (c.type === "tier_discount") {
+let tiers = (c.tiers || []).slice().sort(function(a, b) { return a.minOrderTotal - b.minOrderTotal; });
+let applied = false;
+for (let ti = tiers.length - 1; ti >= 0; ti--) {
+if (subtotal >= tiers[ti].minOrderTotal) {
+let amount = tiers[ti].discountType === "percentage"
+? Math.round(subtotal * tiers[ti].discountAmount / 100)
+: tiers[ti].discountAmount;
+totalDiscount += amount;
+lines.push({ label: c.label, amount: amount });
+applied = true;
+break;
+}
+}
+if (!applied) {
+for (let ti = 0; ti < tiers.length; ti++) {
+if (subtotal < tiers[ti].minOrderTotal) {
+let remaining = tiers[ti].minOrderTotal - subtotal;
+let discAmt = tiers[ti].discountType === "percentage"
+? tiers[ti].discountAmount + "%"
+: fmt(tiers[ti].discountAmount) + " " + currencySymbol;
+hints.push(fmt(remaining) + " " + currencySymbol + " " + L("discountProgressPrefix") + " " + discAmt + " " + L("discountProgressSuffix"));
+break;
+}
+}
+}
+}
+else if (c.type === "multi_unit") {
+let pid = c.productId;
+let cartItem = null;
+for (let ii = 0; ii < items.length; ii++) {
+if (items[ii].id === pid) { cartItem = items[ii]; break; }
+}
+let tiers = (c.tiers || []).slice().sort(function(a, b) { return a.minQuantity - b.minQuantity; });
+let currentQty = cartItem ? cartItem.quantity : 0;
+let applied = false;
+for (let ti = tiers.length - 1; ti >= 0; ti--) {
+if (currentQty >= tiers[ti].minQuantity) {
+let lineTotal = cartItem.price * cartItem.quantity;
+let amount = Math.min(tiers[ti].discountPerUnit * cartItem.quantity, lineTotal);
+totalDiscount += amount;
+lines.push({ label: c.label, amount: amount });
+applied = true;
+break;
+}
+}
+if (!applied) {
+for (let ti = 0; ti < tiers.length; ti++) {
+if (currentQty < tiers[ti].minQuantity) {
+let remaining = tiers[ti].minQuantity - currentQty;
+let prodName = (PRODUCTS[pid] && PRODUCTS[pid].name) || pid;
+hints.push(remaining + " " + L("unit") + " " + prodName + " " + L("discountProgressPrefix") + " " + fmt(tiers[ti].discountPerUnit) + " " + currencySymbol + "/" + L("unit") + " " + L("discountProgressSuffix"));
+break;
+}
+}
+}
+}
+else if (c.type === "free_shipping") {
+let wKg = totalWeightKg(items);
+let conditions = c.conditions || [];
+let met = false;
+for (let coi = 0; coi < conditions.length; coi++) {
+let cond = conditions[coi];
+if (cond.minWeight && wKg >= cond.minWeight) { met = true; break; }
+if (cond.minOrderTotal && subtotal >= cond.minOrderTotal) { met = true; break; }
+}
+if (met) {
+freeShipping = true;
+lines.push({ label: c.label, amount: 0, isFree: true });
+} else {
+for (let coi = 0; coi < conditions.length; coi++) {
+let cond = conditions[coi];
+if (cond.minWeight && wKg < cond.minWeight) {
+let remaining = Math.round((cond.minWeight - wKg) * 100) / 100;
+let hint = (cond.hintTemplate || "").replace("{remaining}", remaining);
+if (hint) { hints.push(hint); }
+}
+if (cond.minOrderTotal && subtotal < cond.minOrderTotal) {
+let remaining = cond.minOrderTotal - subtotal;
+let hint = (cond.hintTemplate || "").replace("{remaining}", fmt(remaining));
+if (hint) { hints.push(hint); }
+}
+}
+}
+}
+else if (c.type === "happy_hour") {
+let t = getShopTime();
+let sched = c.schedule || {};
+let days = sched.days || [];
+let dayNames = ["SUNDAY","MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY"];
+let dayName = dayNames[t.day];
+let inDay = false;
+for (let di = 0; di < days.length; di++) { if (days[di] === dayName) { inDay = true; break; } }
+let startParts = (sched.startTime || "00:00").split(":");
+let endParts = (sched.endTime || "00:00").split(":");
+let startMin = parseInt(startParts[0], 10) * 60 + parseInt(startParts[1], 10);
+let endMin = parseInt(endParts[0], 10) * 60 + parseInt(endParts[1], 10);
+let nowMin = t.h * 60 + t.m;
+let inTime = nowMin >= startMin && nowMin < endMin;
+if (inDay && inTime) {
+let amount = c.discountType === "percentage"
+? Math.round(subtotal * c.discountValue / 100)
+: c.discountValue;
+totalDiscount += amount;
+lines.push({ label: c.label, amount: amount });
+happyHourActive = true;
+}
+}
+}
+return { totalDiscount: totalDiscount, lines: lines, freeShipping: freeShipping, happyHourActive: happyHourActive, hints: hints };
+}
 function render() {
 let cart = getCart();
+let items = getItems(cart);
+let qty = 0;
+for (let i = 0; i < items.length; i++) { qty += items[i].quantity; }
 renderButtons(cart);
-renderBadge(cart);
-renderBasket(cart);
+renderBadge(qty);
+renderBasket(items);
 updateLinks();
 }
 function renderButtons(cart) {
@@ -237,27 +356,46 @@ badge.href = "#basket";
 badge.append(img("/img/basket.png", L("basket")), txt(span, "0"));
 badge.addEventListener("click", function(e) {
 e.preventDefault();
-if (getTotalQty() === 0) { return; }
+if (lastQty === 0) { return; }
 basketOpen = true;
-renderBasket();
-setTimeout(function() {
-var top = basketSection.getBoundingClientRect().top + window.pageYOffset;
-window.scrollTo({ top: top, behavior: "smooth" });
-}, 80);
+renderBasket(getItems());
+basketSection.scrollIntoView({ behavior: "smooth" });
 });
-document.body.append(badge);
+document.querySelector("header").append(badge);
 }
-function renderBadge(cart) {
-let total = getTotalQty(cart);
-badge.querySelector("span").textContent = total;
-if (total > 0) { show(badge); }
+function renderBadge(qty) {
+lastQty = qty;
+badge.querySelector("span").textContent = qty;
+if (qty > 0) { show(badge); }
 else { hide(badge); }
+}
+function updateBadgePosition() {
+if (!badge) { return; }
+let badgeH = badge.offsetHeight || 80;
+if (lastQty === 0) {
+badge.style.top = "calc(50% - " + (badgeH / 2) + "px)";
+return;
+}
+let rect = basketSection.getBoundingClientRect();
+let badgeTop = rect.top - badgeH / 2;
+if (navEl) {
+let nc = navEl.getBoundingClientRect().top + navEl.offsetHeight / 2;
+if (nc > 0) { badgeTop = Math.min(nc - badgeH / 2, badgeTop); }
+}
+badgeTop = Math.max(10, Math.min(badgeTop, window.innerHeight - badgeH - 10));
+badge.style.top = badgeTop + "px";
 }
 function initBasketDOM() {
 emptyEl = div("empty hidden");
 emptyEl.append(img("/img/basket.png", L("basket")), txt(p, L("emptyBasket")));
+let descP = p();
+let pLink = a();
+pLink.href = C.productsPage || "/pages/urunlerimiz.html";
+pLink.textContent = L("productsLinkText");
+descP.append(pLink, " " + L("emptyBasketDesc"));
+emptyEl.append(descP);
 basketSection.append(emptyEl);
-if (warningText) {
+if (warningText && !C.restaurantMode) {
 descEl = h5("hidden");
 parseBr(warningText, descEl);
 basketSection.append(descEl);
@@ -271,34 +409,63 @@ basketOpen = !basketOpen;
 if (basketOpen) { show(contentEl); }
 else { hide(contentEl); }
 toggleBtnEl.classList.toggle("open", basketOpen);
+updateBadgePosition();
 });
 wrapEl.append(toggleBtnEl);
 contentEl = div("hidden");
 itemsEl = div("items");
 totalsEl = div("totals");
 contentEl.append(itemsEl, totalsEl);
+if (C.isBasketDesc && !C.restaurantMode) {
+let descWrap = div("basket-desc-wrap");
+descInputEl = document.createElement("textarea");
+descInputEl.className = "basket-desc-input";
+descInputEl.placeholder = L("basketDescPlaceholder");
+descInputEl.title = L("basketDescTooltip");
+descInputEl.rows = 2;
+descWrap.append(descInputEl);
+contentEl.append(descWrap);
+}
+let payOpts = C.paymentOptions || [];
+if (payOpts.length > 1 && !C.restaurantMode) {
+let payWrap = div("payment-options-wrap");
+let radioGroup = div("payment-radios");
+for (let pi = 0; pi < payOpts.length; pi++) {
+let lbl = document.createElement("label");
+let radio = document.createElement("input");
+radio.type = "radio";
+radio.name = "basket-payment";
+radio.value = payOpts[pi];
+if (pi === 0) { radio.checked = true; }
+lbl.append(radio, " " + payOpts[pi]);
+radioGroup.append(lbl);
+}
+payWrap.append(radioGroup);
+contentEl.append(payWrap);
+}
 let waBtn = txt(button, L("whatsAppOrder"), "wa");
-waBtn.addEventListener("click", function() {
-if (lastItems) { sendWhatsApp(lastItems, lastSubtotal, lastShipping, lastTotal); }
-});
+waBtn.addEventListener("click", function() { sendWhatsApp.apply(null, getOrderArgs()); });
 contentEl.append(waBtn);
 if (tgUsername) {
 let tgBtn = txt(button, L("telegramOrder"), "tg");
-tgBtn.addEventListener("click", function() {
-if (lastItems) { sendTelegram(lastItems, lastSubtotal, lastShipping, lastTotal); }
-});
+tgBtn.addEventListener("click", function() { sendTelegram.apply(null, getOrderArgs()); });
 contentEl.append(tgBtn);
 }
-if (waWarningText) {
+if (waWarningText && !C.restaurantMode) {
 let warn = h6();
 parseBr(waWarningText, warn);
 contentEl.append(warn);
 }
+if (window.WAITER_NAME || window.TABLE_NO) {
+let infoEl = div("table-info");
+if (window.WAITER_NAME) { infoEl.append(txt(span, L("waiterLabel") + ": " + window.WAITER_NAME)); }
+if (window.TABLE_NO) { infoEl.append(txt(span, L("tableLabel") + ": " + window.TABLE_NO)); }
+contentEl.append(infoEl);
+}
 wrapEl.append(contentEl);
 basketSection.append(wrapEl);
 }
-function renderBasket(cart) {
-let items = getItems(cart);
+function renderBasket(items) {
 if (items.length === 0) {
 show(emptyEl);
 if (descEl) { hide(descEl); }
@@ -306,6 +473,7 @@ hide(wrapEl);
 basketOpen = false;
 hide(contentEl);
 toggleBtnEl.classList.remove("open");
+updateBadgePosition();
 return;
 }
 hide(emptyEl);
@@ -315,12 +483,10 @@ if (basketOpen) { show(contentEl); }
 else { hide(contentEl); }
 toggleBtnEl.classList.toggle("open", basketOpen);
 empty(itemsEl);
-let subtotal = 0, totalQty = 0;
+let subtotal = calcSubtotal(items);
 for (let i = 0; i < items.length; i++) {
 let item = items[i];
 let lineTotal = item.price * item.quantity;
-subtotal += lineTotal;
-totalQty += item.quantity;
 let row = div();
 let del = actionImg("/img/delete.png", L("delete"), "delete", item.id, "del");
 let qc = div("qty-ctrl");
@@ -330,58 +496,123 @@ qc.append(qMinus, txt(span, item.quantity), qPlus);
 row.append(del, img("/img/products/" + item.img, item.name), txt(b, item.name), qc, txt(span, fmt(lineTotal) + " " + currencySymbol));
 itemsEl.append(row);
 }
+let totalQty = 0;
+for (let i = 0; i < items.length; i++) { totalQty += items[i].quantity; }
 toggleInfoEl.textContent = "(" + totalQty + " " + L("itemSuffix") + " " + L("for") + " " + L("total") + " " + fmt(subtotal) + " " + currencySymbol + ")";
 empty(totalsEl);
-let shipping = calculateShippingPrice(items);
-let total = subtotal + shipping;
-lastItems = items;
-lastSubtotal = subtotal;
-lastShipping = shipping;
-lastTotal = total;
-totalsEl.append(makeRow(L("subtotal") + ":", fmt(subtotal) + " " + currencySymbol));
-totalsEl.append(makeRow(L("shipping") + ":", shipping > 0 ? fmt(shipping) + " " + currencySymbol : L("freeShipping")));
-if (shippingWarningText) {
-totalsEl.append(txt(small, shippingWarningText));
+let discountResult = calculateDiscount(items, subtotal);
+let discountTotal = discountResult.totalDiscount;
+let dLines = filterDiscountLines(discountResult.lines);
+if (C.restaurantMode) {
+if (discountTotal > 0) {
+for (let di = 0; di < dLines.length; di++) {
+totalsEl.append(makeRow(dLines[di].label + ":", "-" + fmt(dLines[di].amount) + " " + currencySymbol, "discount"));
 }
+}
+totalsEl.append(makeRow(L("total") + ":", fmt(subtotal - discountTotal) + " " + currencySymbol, "total"));
+} else {
+let shipping = discountResult.freeShipping ? 0 : calculateShippingPrice(items);
+let total = subtotal - discountTotal + shipping;
+totalsEl.append(makeRow(L("subtotal") + ":", fmt(subtotal) + " " + currencySymbol));
+if (discountTotal > 0) {
+for (let di = 0; di < dLines.length; di++) {
+totalsEl.append(makeRow(dLines[di].label + ":", "-" + fmt(dLines[di].amount) + " " + currencySymbol, "discount"));
+}
+}
+let freeShippingCampaign = discountResult.freeShipping
+? (discountResult.lines.filter(function(l) { return l.isFree; })[0] || {}).label || L("freeShipping")
+: null;
+let shippingLabel = freeShippingCampaign || (shipping > 0 ? fmt(shipping) + " " + currencySymbol : L("freeShipping"));
+totalsEl.append(makeRow(L("shipping") + ":", shippingLabel));
 totalsEl.append(makeRow(L("total") + ":", fmt(total) + " " + currencySymbol, "total"));
+}
+for (let hi = 0; hi < discountResult.hints.length; hi++) {
+let hintEl = div("campaign-hint");
+hintEl.textContent = discountResult.hints[hi];
+totalsEl.append(hintEl);
+}
+if (discountResult.happyHourActive && C.timezone) {
+let warnEl = div("happy-hour-warning");
+warnEl.textContent = L("happyHourTimezoneWarning");
+totalsEl.append(warnEl);
+}
+updateBadgePosition();
 }
 function updateLinks() {
 let qs = location.search;
-if (!cachedLinks) {
-let all = document.querySelectorAll('a[href^="/"], a[href^="./"], a[href^="../"]');
-cachedLinks = [];
-for (let i = 0; i < all.length; i++) {
-let href = all[i].getAttribute("href");
+let links = document.querySelectorAll("a[href]");
+for (let i = 0; i < links.length; i++) {
+let link = links[i];
+let href = link.getAttribute("href");
+if (!href) { continue; }
+if (href.charAt(0) === "#") { continue; }
+if (href.indexOf("://") !== -1) { continue; }
+if (href.indexOf("mailto:") === 0) { continue; }
+if (href.indexOf("tel:") === 0) { continue; }
 let hashPos = href.indexOf("#");
-cachedLinks.push({
-el: all[i],
-base: (hashPos !== -1 ? href.substring(0, hashPos) : href).split("?")[0],
-hash: hashPos !== -1 ? href.substring(hashPos) : ""
-});
+let hash = hashPos !== -1 ? href.substring(hashPos) : "";
+let base = hashPos !== -1 ? href.substring(0, hashPos) : href;
+base = base.split("?")[0];
+link.setAttribute("href", base + qs + hash);
 }
 }
-for (let i = 0; i < cachedLinks.length; i++) {
-let l = cachedLinks[i];
-l.el.setAttribute("href", l.base + qs + l.hash);
+function getSelectedPayment() {
+let opts = C.paymentOptions || [];
+if (opts.length === 0) { return ""; }
+if (opts.length === 1) { return opts[0]; }
+let radios = document.querySelectorAll('input[name="basket-payment"]');
+for (let r = 0; r < radios.length; r++) {
+if (radios[r].checked) { return radios[r].value; }
 }
+return opts[0];
 }
-function buildOrderMessage(items, subtotal, shipping, total, greetingKey) {
-let msg = L(greetingKey) + "\n";
+function getBasketDesc() {
+if (!descInputEl) { return ""; }
+return descInputEl.value.trim();
+}
+function getOrderArgs() {
+let items = getItems();
+let subtotal = calcSubtotal(items);
+let discountResult = calculateDiscount(items, subtotal);
+let shipping = (C.restaurantMode || discountResult.freeShipping) ? 0 : calculateShippingPrice(items);
+return [items, subtotal, discountResult, shipping, subtotal - discountResult.totalDiscount + shipping];
+}
+function buildOrderMsg(greetingKey, items, subtotal, discountResult, shipping, total) {
+let msg = "";
+if (window.WAITER_NAME) { msg += "[" + L("waiterLabel") + ": " + window.WAITER_NAME + "]\n"; }
+if (window.TABLE_NO) { msg += "[" + L("tableLabel") + ": " + window.TABLE_NO + "]\n"; }
+msg += L(greetingKey) + "\n\n";
 for (let i = 0; i < items.length; i++) {
-msg += items[i].quantity + "x " + items[i].name + " - " + fmt(items[i].price * items[i].quantity) + " " + currencySymbol + "\n";
+msg += "*" + items[i].quantity + " x " + items[i].name + "*: " + fmt(items[i].price * items[i].quantity) + " " + currencySymbol + "\n";
 }
-msg += L("subtotal") + ": " + fmt(subtotal) + " " + currencySymbol + "\n";
-msg += L("shipping") + ": " + (shipping > 0 ? fmt(shipping) + " " + currencySymbol : L("freeShipping")) + "\n";
-msg += L("total") + ": " + fmt(total) + " " + currencySymbol;
+let allLines = discountResult ? discountResult.lines : [];
+let dLines = filterDiscountLines(allLines);
+if (!C.restaurantMode) {
+let freeLabel = (discountResult && discountResult.freeShipping)
+? ((allLines.filter(function(l) { return l.isFree; })[0] || {}).label || L("freeShipping"))
+: null;
+msg += L("shipping") + ": " + (freeLabel || (shipping > 0 ? fmt(shipping) + " " + currencySymbol : L("freeShipping"))) + "\n";
+}
+msg += L("total") + ": *" + fmt(total) + " " + currencySymbol + "*";
+let extras = [];
+let payment = getSelectedPayment();
+if (payment) { extras.push(L("paymentLabel") + ": *" + payment + "*"); }
+for (let di = 0; di < dLines.length; di++) {
+extras.push(dLines[di].label + ": *-" + fmt(dLines[di].amount) + " " + currencySymbol + "*");
+}
+let desc = getBasketDesc();
+if (desc) { extras.push(L("noteLabel") + ": " + desc); }
+if (extras.length > 0) { msg += "\n\n" + extras.join("\n"); }
 return msg;
 }
-function sendWhatsApp(items, subtotal, shipping, total) {
-let msg = buildOrderMessage(items, subtotal, shipping, total, "whatsAppGreeting");
-window.open("https://wa.me/" + waNumber + "?text=" + encodeURIComponent(msg), "_blank");
+function sendWhatsApp(items, subtotal, discountResult, shipping, total) {
+let encoded = encodeURIComponent(buildOrderMsg("whatsAppGreeting", items, subtotal, discountResult, shipping, total));
+if (IS_MOBILE) { window.open("https://wa.me/" + waNumber + "?text=" + encoded, "_blank"); }
+else { window.open("https://web.whatsapp.com/send?phone=" + waNumber + "&text=" + encoded, "_blank"); }
 }
-function sendTelegram(items, subtotal, shipping, total) {
-let msg = buildOrderMessage(items, subtotal, shipping, total, "telegramGreeting");
-window.open("https://t.me/" + tgUsername + "?text=" + encodeURIComponent(msg), "_blank");
+function sendTelegram(items, subtotal, discountResult, shipping, total) {
+let encoded = encodeURIComponent(buildOrderMsg("telegramGreeting", items, subtotal, discountResult, shipping, total));
+window.open("https://t.me/" + tgUsername + "?text=" + encoded, "_blank");
 }
 document.addEventListener("click", function(e) {
 let t = e.target;
@@ -400,12 +631,54 @@ if (btn && btn.hasAttribute("data-id") && !btn.classList.contains("qty-ctrl")) {
 addToBasket(btn.getAttribute("data-id"));
 }
 });
+document.addEventListener("DOMContentLoaded", function() {
 createBadge();
+navEl = document.querySelector("nav");
 let fb = document.querySelector("button[data-id]");
 if (fb) { addToBasketText = fb.textContent.trim(); }
 initBasketDOM();
-if (getTotalQty() > 0) { basketOpen = true; }
+if (getItems().length > 0) { basketOpen = true; }
 render();
+window.addEventListener("scroll", updateBadgePosition, { passive: true });
+window.addEventListener("resize", updateBadgePosition, { passive: true });
+document.addEventListener("click", function(e) {
+let a = e.target;
+while (a && a.tagName !== "A") { a = a.parentElement; }
+if (!a || !a.hasAttribute("data-ci")) { return; }
+let ci = parseInt(a.getAttribute("data-ci"), 10);
+if (isNaN(ci) || ci < 0 || ci >= CAMPAIGN_CONFIG.length) { return; }
+let c = CAMPAIGN_CONFIG[ci];
+if (!c || !c.addProducts || !c.addProducts.length) {
+e.preventDefault();
+basketOpen = true;
+renderBasket(getItems());
+basketSection.scrollIntoView({ behavior: "smooth" });
+return;
+}
+let items = getItems();
+let subtotal = calcSubtotal(items);
+let disc = calculateDiscount(items, subtotal);
+let alreadyApplied = false;
+if (c.type === "free_shipping") { alreadyApplied = disc.freeShipping; }
+else {
+for (let li = 0; li < disc.lines.length; li++) {
+if (disc.lines[li].label === c.label) { alreadyApplied = true; break; }
+}
+}
+e.preventDefault();
+if (!alreadyApplied) {
+let cart = getCart();
+for (let i = 0; i < c.addProducts.length; i++) {
+let ap = c.addProducts[i];
+cart[ap.id] = (cart[ap.id] || 0) + ap.qty;
+}
+setCart(cart);
+}
+basketOpen = true;
+renderBasket(getItems());
+basketSection.scrollIntoView({ behavior: "smooth" });
+});
+});
 })();
 (function(){
 var els = document.querySelectorAll('ul.prd li, .pdt, details, article');
@@ -420,4 +693,94 @@ if(en.isIntersecting){ en.target.classList.add('visible'); io.unobserve(en.targe
 });
 }, { threshold: 0.08 });
 els.forEach(function(e){ io.observe(e); });
+})();
+(function() {
+var catsEl = document.querySelector('.filter-cats');
+var tagsEl = document.querySelector('.filter-tags');
+if (!catsEl) return;
+var selectedCats = [];
+var selectedTags = [];
+function getItems() {
+return document.querySelectorAll('ul.prd li');
+}
+function applyFilter() {
+var items = getItems();
+for (var i = 0; i < items.length; i++) {
+var item = items[i];
+var cat = item.dataset.cat || '';
+var tags = item.dataset.tags ? item.dataset.tags.split(' ') : [];
+var catOk = !selectedCats.length || selectedCats.indexOf(cat) !== -1;
+var tagOk = !selectedTags.length || selectedTags.some(function(t) { return tags.indexOf(t) !== -1; });
+item.hidden = !(catOk && tagOk);
+}
+// Hide empty groups
+var groups = document.querySelectorAll('.cat-group');
+for (var g = 0; g < groups.length; g++) {
+var visible = groups[g].querySelectorAll('li:not([hidden])');
+groups[g].hidden = visible.length === 0;
+}
+}
+function updateTagRow() {
+if (!tagsEl) return;
+var chips = tagsEl.querySelectorAll('.chip');
+for (var i = 0; i < chips.length; i++) {
+var chip = chips[i];
+var tag = chip.dataset.tag;
+var relevant = false;
+if (!selectedCats.length) {
+relevant = true;
+} else {
+var items = getItems();
+for (var j = 0; j < items.length; j++) {
+var item = items[j];
+if (selectedCats.indexOf(item.dataset.cat || '') !== -1) {
+var tags = item.dataset.tags ? item.dataset.tags.split(' ') : [];
+if (tags.indexOf(tag) !== -1) { relevant = true; break; }
+}
+}
+}
+chip.hidden = !relevant;
+if (!relevant) {
+chip.classList.remove('active');
+var idx = selectedTags.indexOf(tag);
+if (idx !== -1) selectedTags.splice(idx, 1);
+}
+}
+}
+catsEl.addEventListener('click', function(e) {
+var chip = e.target.closest ? e.target.closest('.chip') : e.target;
+if (!chip || !chip.classList.contains('chip')) return;
+var cat = chip.dataset.cat;
+if (cat === '') {
+selectedCats = [];
+selectedTags = [];
+var allCatChips = catsEl.querySelectorAll('.chip');
+for (var i = 0; i < allCatChips.length; i++) allCatChips[i].classList.remove('active');
+if (tagsEl) {
+var allTagChips = tagsEl.querySelectorAll('.chip');
+for (var j = 0; j < allTagChips.length; j++) allTagChips[j].classList.remove('active');
+}
+chip.classList.add('active');
+} else {
+var allBtn = catsEl.querySelector('[data-cat=""]');
+if (allBtn) allBtn.classList.remove('active');
+var idx = selectedCats.indexOf(cat);
+if (idx === -1) { selectedCats.push(cat); chip.classList.add('active'); }
+else { selectedCats.splice(idx, 1); chip.classList.remove('active'); }
+if (!selectedCats.length && allBtn) allBtn.classList.add('active');
+}
+updateTagRow();
+applyFilter();
+});
+if (tagsEl) {
+tagsEl.addEventListener('click', function(e) {
+var chip = e.target.closest ? e.target.closest('.chip') : e.target;
+if (!chip || !chip.classList.contains('chip')) return;
+var tag = chip.dataset.tag;
+var idx = selectedTags.indexOf(tag);
+if (idx === -1) { selectedTags.push(tag); chip.classList.add('active'); }
+else { selectedTags.splice(idx, 1); chip.classList.remove('active'); }
+applyFilter();
+});
+}
 })();

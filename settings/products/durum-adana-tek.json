@@ -6,6 +6,7 @@
   "price": 350,
   "weight": { "value": 1, "unit": "adet" },
   "category": { "name": "Dürüm", "url": "dorum" },
+  "tag" : { "name" : "Kebap" },
   "shortDesc": "Acılı Adana kebap ile hazırlanan lavaş dürüm, tek şiş.",
   "metaDesc": "AYS KEBAP Adana Dürüm Tek Şiş — 350₺",
   "keywords": "adana dürüm, tek şiş, kebap, ays kebap",

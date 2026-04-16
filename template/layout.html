@@ -8,19 +8,22 @@
     <meta name="keywords" content="{{keywords}}">
     <link rel="canonical" href="{{canonical}}">
     {{hreflang}}
-    {{preload_hint}}
-    {{css}}
+    <link rel="stylesheet" href="/site.css" />
     <link rel="icon" href="/favicon.png" type="image/png"/>
   </head>
   <body>
     <section class="off">{{offline_warning}}</section>
-    <header>
-      <a href="/" class="logo-link"><img src="{{logo_src}}" alt="{{slogan}}" title="{{slogan}}" /></a>
-      {{nav}}
-    </header>
+    <header><a href="/"><img src="/logo.png" alt="{{slogan}}" title="{{slogan}}" /></a></header>
+    <nav><div>{{nav}}</div></nav>
     <main>{{main}}</main>
     <section id="basket"></section>
-    {{footer}}
-    <script src="/site.js" defer></script>{{extra_scripts}}
+    <footer>
+      <menu>{{social}}</menu>
+      <a href="mailto:{{email}}">{{email}}</a>
+      <h1>{{copyright}}</h1>
+      <div>{{footer_nav}}</div>
+      <span class="flogo">{{lang_nav}}<img src="/logo.png" alt="{{slogan}}" title="{{slogan}}" /></span>
+    </footer>
+    <script src="/site.js"></script>{{extra_scripts}}
   </body>
 </html>
