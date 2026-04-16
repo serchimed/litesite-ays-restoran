@@ -1,0 +1,15 @@
+{
+  "id": "s4",
+  "name": "Çoban Salata",
+  "url": "salata-coban",
+  "images": ["salata-coban.webp"],
+  "price": 200,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Salata", "url": "salata" },
+  "shortDesc": "Taze domates, salatalık ve biberden oluşan çoban salata.",
+  "metaDesc": "AYS RESTORANT Çoban Salata — 200₺",
+  "keywords": "çoban salata, salata, ays restorant",
+  "longDesc": ["Taze domates, salatalık, yeşil biber ve soğandan oluşan; zeytinyağı ve limonla tatlandırılan çoban salata."],
+  "otherDesc": [{ "name": "Porsiyon", "value": "1 Porsiyon", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

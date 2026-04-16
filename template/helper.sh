@@ -116,7 +116,7 @@ build_social_links() {
   local ig=$(json_val "$COMPANY_JSON" instagram)
   local fb=$(json_val "$COMPANY_JSON" facebook)
   local ln=$(json_val "$COMPANY_JSON" linkedin)
-  local wa=$(echo "$L_PHONE" | tr -d '+ ')
+  local wa=$(json_val "$COMPANY_JSON" whatsapp | tr -d '+ ')
   local html=""
   [ -n "$ig" ] && [ "$ig" != "#" ] && html+="<a href=\"${ig}\" target=\"_blank\"><img src=\"/img/instagram.png\" alt=\"Instagram\"></a>"
   [ -n "$fb" ] && [ "$fb" != "#" ] && html+="<a href=\"${fb}\" target=\"_blank\"><img src=\"/img/facebook.png\" alt=\"Facebook\"></a>"
@@ -127,6 +127,7 @@ build_social_links() {
 
 build_lang_nav() {
   _LANG_NAV=""
+  [ ${#L_SWITCH_CODES[@]} -le 1 ] && return
   local path="$1" html=""
   for i in "${!L_SWITCH_CODES[@]}"; do
     if [ "${L_SWITCH_CODES[$i]}" = "$SITE_LANG" ]; then

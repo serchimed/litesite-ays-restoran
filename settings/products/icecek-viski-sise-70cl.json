@@ -1,0 +1,16 @@
+{
+  "id": "dr16",
+  "name": "Viski Şişe 70 Cl",
+  "url": "icecek-viski-sise-70cl",
+  "images": ["icecek-viski-sise-70cl.webp"],
+  "price": 5000,
+  "weight": { "value": 70, "unit": "cl" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "70 cl viski şişesi.",
+  "metaDesc": "AYS RESTORANT Viski Şişe 70 Cl — 5000₺",
+  "keywords": "viski, şişe, 70cl, ays restorant",
+  "longDesc": ["Buz ve soda eşliğinde sunulan 70 cl viski şişesi."],
+  "otherDesc": [{ "name": "Hacim", "value": "70 Cl", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" },
+  "isForMenu": false
+}

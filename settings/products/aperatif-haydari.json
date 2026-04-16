@@ -1,17 +1,15 @@
 {
-  "id": "ap4",
+  "id": "ap9",
   "name": "Haydari",
   "url": "aperatif-haydari",
-  "images": ["aperatif-haydari.jpg"],
+  "images": ["aperatif-haydari.webp"],
   "price": 150,
   "weight": { "value": 1, "unit": "porsiyon" },
   "category": { "name": "Aperatif", "url": "aperatif" },
-  "shortDesc": "Sarımsaklı, nane aromalı yoğurt ezmesi.",
-  "metaDesc": "AYS KEBAP Haydari — 150₺",
-  "keywords": "haydari, yoğurt, aperatif, ays kebap",
-  "longDesc": ["Süzme yoğurt, sarımsak ve nane ile hazırlanan geleneksel haydari."],
-  "otherDesc": [
-    { "name": "Porsiyon", "value": "1 Porsiyon", "type": "spec" }
-  ],
+  "shortDesc": "Sarımsaklı yoğurt ve nane ile hazırlanan haydari.",
+  "metaDesc": "AYS RESTORANT Haydari — 150₺",
+  "keywords": "haydari, yoğurtlu, aperatif, ays restorant",
+  "longDesc": ["Süzme yoğurt, sarımsak ve kurutulmuş nane ile hazırlanan geleneksel Türk mezesi."],
+  "otherDesc": [{ "name": "Porsiyon", "value": "1 Porsiyon", "type": "spec" }],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

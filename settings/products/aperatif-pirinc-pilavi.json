@@ -1,0 +1,15 @@
+{
+  "id": "ap12",
+  "name": "Pirinç Pilavı",
+  "url": "aperatif-pirinc-pilavi",
+  "images": ["aperatif-pirinc-pilavi.webp"],
+  "price": 100,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Aperatif", "url": "aperatif" },
+  "shortDesc": "Tereyağlı pirinç pilavı.",
+  "metaDesc": "AYS RESTORANT Pirinç Pilavı — 100₺",
+  "keywords": "pirinç pilavı, pilav, aperatif, ays restorant",
+  "longDesc": ["Tereyağıyla kavrulan pirinçten hazırlanan, bol nişastalı ve lezzetli pirinç pilavı."],
+  "otherDesc": [{ "name": "Porsiyon", "value": "1 Porsiyon", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

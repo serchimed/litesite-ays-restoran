@@ -1,0 +1,20 @@
+{
+  "id": "ap6",
+  "name": "Mantı",
+  "url": "aperatif-manti",
+  "images": ["aperatif-manti.webp"],
+  "price": 320,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Aperatif", "url": "aperatif" },
+  "shortDesc": "Geleneksel Türk mantısı, yoğurt ve soslu servis edilir.",
+  "metaDesc": "AYS RESTORANT Mantı — 320₺",
+  "keywords": "mantı, türk mantısı, aperatif, ays restorant",
+  "longDesc": [
+    "El yapımı küçük hamur parçalarının içine kıyma doldurulan mantı; sarımsaklı yoğurt ve tereyağlı kırmızı biber sosuyla servis edilir.",
+    "Geleneksel Türk mutfağının en sevilen lezzetlerinden biri."
+  ],
+  "otherDesc": [
+    { "name": "İçerik", "value": "Et Dolmalı, Yoğurtlu", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

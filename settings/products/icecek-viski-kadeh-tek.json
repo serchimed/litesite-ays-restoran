@@ -1,0 +1,16 @@
+{
+  "id": "dr14",
+  "name": "Viski Kadeh Tek",
+  "url": "icecek-viski-kadeh-tek",
+  "images": ["icecek-viski-kadeh-tek.webp"],
+  "price": 400,
+  "weight": { "value": 1, "unit": "kadeh" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Tek kadeh viski.",
+  "metaDesc": "AYS RESTORANT Viski Kadeh Tek — 400₺",
+  "keywords": "viski, kadeh, tek, ays restorant",
+  "longDesc": ["Buz veya soda eşliğinde servis edilen tek kadeh viski."],
+  "otherDesc": [{ "name": "Porsiyon", "value": "Tek Kadeh", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" },
+  "isForMenu": false
+}

@@ -2,14 +2,17 @@
   "id": "p3",
   "name": "Dana Kuşbaşı Porsiyon",
   "url": "porsiyon-dana-kusabasi",
-  "images": ["porsiyon-dana-kusabasi.jpg"],
+  "images": ["porsiyon-dana-kusabasi.webp"],
   "price": 550,
   "weight": { "value": 1, "unit": "porsiyon" },
   "category": { "name": "Porsiyon", "url": "porsiyon" },
   "shortDesc": "Dana kuşbaşı et porsiyonu, pilav ve salata ile servis edilir.",
   "metaDesc": "AYS KEBAP Dana Kuşbaşı Porsiyon — 550₺",
   "keywords": "dana kuşbaşı, porsiyon, ays kebap",
-  "longDesc": ["Taze dana kuşbaşı et, özel baharatlarla pişirilerek pilav ve salata ile servis edilir."],
+  "longDesc": [
+    "AYS KEBAP'ta dana kuşbaşı, taze seçilmiş dana etinden hazırlanan iri küpler halinde şişe geçirilip mangalın kor ateşinde ustalıkla közlenerek servis edilir.",
+    "Tabağınızda sizi şunlar karşılar: Tereyağlı pilav, közlenmiş domates ve biber, sıcak lavaş, acılı antep ezme, haydari, patlıcan salatası ve biber turşusu. Dana etinin yumuşaklığı ve manganın kor lezzetiyle dolu bir tabak."
+  ],
   "otherDesc": [
     { "name": "Et", "value": "Dana Kuşbaşı", "type": "spec" }
   ],

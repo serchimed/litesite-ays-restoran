@@ -1,0 +1,19 @@
+{
+  "id": "m6",
+  "name": "Penne All'Arabiatta",
+  "url": "makarna-penne-all-arabiatta",
+  "images": ["makarna-penne-all-arabiatta.webp"],
+  "price": 320,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Makarna", "url": "makarna" },
+  "shortDesc": "Baharatlı domates sosuyla hazırlanan penne makarna.",
+  "metaDesc": "AYS RESTORANT Penne All'Arabiatta — 320₺",
+  "keywords": "penne arabiatta, baharatlı makarna, ays restorant",
+  "longDesc": [
+    "Acı biber ve sarımsakla zenginleştirilen domates sosu, penne makarnasının üzerine dökülerek servis edilir. Baharatlı sevenler için ideal."
+  ],
+  "otherDesc": [
+    { "name": "Sos", "value": "Arabiatta (Baharatlı Domates)", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

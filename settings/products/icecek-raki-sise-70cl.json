@@ -1,0 +1,16 @@
+{
+  "id": "dr13",
+  "name": "Rakı Şişe 70 Cl",
+  "url": "icecek-raki-sise-70cl",
+  "images": ["icecek-raki-sise-70cl.webp"],
+  "price": 2500,
+  "weight": { "value": 70, "unit": "cl" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "70 cl rakı şişesi.",
+  "metaDesc": "AYS RESTORANT Rakı Şişe 70 Cl — 2500₺",
+  "keywords": "rakı, şişe, 70cl, ays restorant",
+  "longDesc": ["Soğuk su ve meze eşliğinde servis edilen 70 cl rakı şişesi."],
+  "otherDesc": [{ "name": "Hacim", "value": "70 Cl", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" },
+  "isForMenu": false
+}

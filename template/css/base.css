@@ -99,7 +99,7 @@ main {
 }
 
 main > *:first-child:not(.hero):not(.page-img) {
-  padding-top: 240px;
+  padding-top: 2.5rem;
 }
 main > :not(.hero):not(.page-img) {
   max-width: 1600px;

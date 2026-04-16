@@ -51,8 +51,11 @@ build_sitemap_xml() {
   done
   xml+=$(echo "$entries" | sort -t'|' -k1 -rn | cut -d'|' -f2-)
 
+  local _rf='"isForMenu"[[:space:]]*:[[:space:]]*false'
   for pj in "$SETTINGS_DIR"/products/*.json; do
-    local c=$(<"$pj"); jstr "$c" url; local url="$_JVAL"
+    local c=$(<"$pj")
+    [[ "$c" =~ $_rf ]] && continue
+    jstr "$c" url; local url="$_JVAL"
     xml+="<url><loc>${SITE_DOMAIN}/${PRODUCTS_DIR}/${url}.html</loc><priority>0.8</priority></url>"
   done
 
@@ -121,7 +124,7 @@ init_layout() {
   parse_hreflangs
 
   # Social links — inline to avoid $(build_social_links) subshell
-  local _wa="${L_PHONE//[+ ]/}"
+  jstr "$_cc" whatsapp;  local _wa="${_JVAL//[+ ]/}"
   jstr "$_cc" instagram; local _ig="$_JVAL"
   jstr "$_cc" facebook;  local _fb="$_JVAL"
   jstr "$_cc" linkedin;  local _ln="$_JVAL"
@@ -224,7 +227,7 @@ build_products() {
 
     build_tabs "$pj"; local tabs="$_TABS"
 
-    local blur="${img%.webp}-k.webp"
+    local blur="${img%.*}-k.webp"
 
     render_template "$product_tpl" \
       "product_img" "$img" \
@@ -304,9 +307,12 @@ inject_product_catalog() {
   local js="let PRODUCTS={"
   local first=1
   local _rw='"weight"[^}]*"value"[[:space:]]*:[[:space:]]*([0-9]+)'
+  local _rf='"isForMenu"[[:space:]]*:[[:space:]]*false'
 
   for pj in "$SETTINGS_DIR"/products/*.json; do
     local c=$(<"$pj")
+    local menuOnly=0
+    [[ "$c" =~ $_rf ]] && menuOnly=1
     jstr "$c" id;    local id="$_JVAL"
     jstr "$c" name;  local name="$_JVAL"
     jnum "$c" price; local price="$_JVAL"
@@ -315,7 +321,9 @@ inject_product_catalog() {
     [[ "$c" =~ $_rw ]] && wval="${BASH_REMATCH[1]}"
 
     [ $first -eq 0 ] && js+=","
-    js+="\"${id}\":{\"name\":\"${name}\",\"price\":${price},\"weight\":${wval},\"img\":\"${img}\"}"
+    js+="\"${id}\":{\"name\":\"${name}\",\"price\":${price},\"weight\":${wval},\"img\":\"${img}\""
+    [ $menuOnly -eq 1 ] && js+=",\"ord\":0"
+    js+="}"
     first=0
   done
 
@@ -335,8 +343,12 @@ inject_basket_config() {
   jstr "$_sc" basketWarning;   local warning="$_JVAL"
   jstr "$_sc" whatsAppWarning; local wa_warning="$_JVAL"
   jstr "$_sc" shippingWarning; local shipping_warning="$_JVAL"
-  jstr "$_cc" phone;           local _phone="$_JVAL"; local wa_number="${_phone//[+ ]/}"
+  jstr "$_cc" phone;           local _phone="$_JVAL"
+  jstr "$_cc" whatsapp;        local _wa_raw="$_JVAL"; local wa_number="${_wa_raw//[+ ]/}"
   jstr "$_cc" telegram;        local _tg_raw="$_JVAL"; local tg_username="${_tg_raw#@}"
+  warning="${warning//\{\{phone\}\}/${_phone}}"
+  wa_warning="${wa_warning//\{\{phone\}\}/${_phone}}"
+  shipping_warning="${shipping_warning//\{\{phone\}\}/${_phone}}"
 
   jstr "$_sc" productsPage; local products_page="$_JVAL"
   if [ -z "$products_page" ]; then
@@ -382,7 +394,7 @@ inject_basket_config() {
   # Build labels object
   js+=",\"labels\":{"
   local first=1
-  local label_keys="addToBasket basket myBasket itemSuffix for openBasket closeBasket subtotal shipping freeShipping total delete unit whatsAppOrder whatsAppGreeting telegramOrder telegramGreeting emptyBasket productsLinkText emptyBasketDesc waiterLabel tableLabel basketDescPlaceholder basketDescTooltip paymentLabel noteLabel happyHourTimezoneWarning discountProgressPrefix discountProgressSuffix"
+  local label_keys="addToBasket basket myBasket itemSuffix for openBasket closeBasket subtotal shipping freeShipping total delete unit whatsAppOrder whatsAppGreeting telegramOrder telegramGreeting emptyBasket productsLinkText emptyBasketDesc waiterLabel tableLabel basketDescPlaceholder basketDescTooltip paymentLabel noteLabel happyHourTimezoneWarning discountProgressPrefix discountProgressSuffix notForOnlineOrder"
   for k in $label_keys; do
     json_label "$k"; local v="$_JVAL"
     if [ -n "$v" ]; then

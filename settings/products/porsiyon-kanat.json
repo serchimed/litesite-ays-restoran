@@ -2,14 +2,17 @@
   "id": "p8",
   "name": "Kanat Porsiyon",
   "url": "porsiyon-kanat",
-  "images": ["porsiyon-kanat.jpg"],
+  "images": ["porsiyon-kanat.webp"],
   "price": 500,
   "weight": { "value": 1, "unit": "porsiyon" },
   "category": { "name": "Porsiyon", "url": "porsiyon" },
   "shortDesc": "Izgara tavuk kanat porsiyonu, pilav ve salata ile servis edilir.",
   "metaDesc": "AYS KEBAP Kanat Porsiyon — 500₺",
   "keywords": "kanat, tavuk kanat, porsiyon, ays kebap",
-  "longDesc": ["Marine edilmiş tavuk kanat, ızgarada pişirilerek pilav ve salata ile servis edilir."],
+  "longDesc": [
+    "AYS KEBAP'ın tavuk kanadı, özel marine sosuyla hazırlandıktan sonra mangalın kor ateşinde közlenerek dışı çıtır çıtır, eti sulu ve lezzetli bir kıvama getirilir.",
+    "Tabağınızda sizi şunlar karşılar: Tereyağlı pilav, közlenmiş domates ve biber, sıcak lavaş, acılı antep ezme, haydari, patlıcan salatası ve biber turşusu. Kanatlara bayılanlar için mükemmel bir seçim."
+  ],
   "otherDesc": [
     { "name": "Et", "value": "Tavuk Kanat", "type": "spec" }
   ],

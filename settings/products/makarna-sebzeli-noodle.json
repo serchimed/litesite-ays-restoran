@@ -1,0 +1,19 @@
+{
+  "id": "m2",
+  "name": "Sebzeli Noodle",
+  "url": "makarna-sebzeli-noodle",
+  "images": ["makarna-sebzeli-noodle.webp"],
+  "price": 420,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Makarna", "url": "makarna" },
+  "shortDesc": "Taze sebzelerle hazırlanan noodle makarna.",
+  "metaDesc": "AYS RESTORANT Sebzeli Noodle — 420₺",
+  "keywords": "sebzeli noodle, noodle, makarna, vejetaryen, ays restorant",
+  "longDesc": [
+    "Mevsim sebzeleri ile hazırlanan noodle; hafif sosuyla vejetaryen seçenekler arayanlar için ideal bir tercihtir."
+  ],
+  "otherDesc": [
+    { "name": "İçerik", "value": "Mevsim Sebzeleri, Noodle", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

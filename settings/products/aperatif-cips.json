@@ -2,7 +2,7 @@
   "id": "ap1",
   "name": "Cips",
   "url": "aperatif-cips",
-  "images": ["aperatif-cips.jpg"],
+  "images": ["aperatif-cips.webp"],
   "price": 180,
   "weight": { "value": 1, "unit": "porsiyon" },
   "category": { "name": "Aperatif", "url": "aperatif" },

@@ -104,7 +104,7 @@ _build_product_li() {
   [ -n "$tags_attr" ] && li+=" data-tags=\"${tags_attr}\""
   li+=">"
   li+="<a href=\"/${PRODUCTS_DIR}/${url}.html\">"
-  li+="<img src=\"/img/products/${img%.webp}-k.webp\" data-src=\"/img/products/${img}\" loading=\"lazy\" alt=\"${L_BRAND} ${name}\" title=\"${L_BRAND} ${name}\">"
+  li+="<img src=\"/img/products/${img%.*}-k.webp\" data-src=\"/img/products/${img}\" loading=\"lazy\" alt=\"${L_BRAND} ${name}\" title=\"${L_BRAND} ${name}\">"
   li+="<h3>${name}</h3>"
   li+="</a>"
   li+="<b>${price} ${SITE_CURRENCY_SYMBOL}</b>"

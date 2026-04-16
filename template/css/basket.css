@@ -60,6 +60,22 @@
   padding: 0 1.5rem;
 }
 
+/* ── Top ornamental divider — ana içerik ile sepeti ayırır ── */
+#basket::before {
+  content: "◆";
+  display: block;
+  max-width: 700px;
+  margin: 2.5rem auto 1.75rem;
+  padding: 0 1.5rem;
+  text-align: center;
+  line-height: 1;
+  font-size: 0.85rem;
+  color: var(--accent);
+  background:
+    linear-gradient(to right, transparent, var(--border-dark)) left center / calc(50% - 20px) 1px no-repeat,
+    linear-gradient(to right, var(--border-dark), transparent) right center / calc(50% - 20px) 1px no-repeat;
+}
+
 /* Empty state */
 #basket .empty {
   display: flex;
@@ -221,6 +237,16 @@
   white-space: nowrap;
 }
 
+/* Online-order-disabled warning */
+#basket .items small.not-for-order {
+  flex-basis: 100%;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: #b33a3a;
+  text-align: right;
+  margin-top: -0.2rem;
+}
+
 /* ── Totals ── */
 #basket .totals {
   margin-top: 0.75rem;
@@ -259,6 +285,54 @@
   color: var(--muted);
   padding: 0.2rem 0 0.4rem;
   line-height: 1.5;
+}
+
+/* ── Payment options — ortalanmış pill radio'lar ── */
+#basket .payment-options-wrap {
+  margin: 1rem 0 0.25rem;
+}
+#basket .payment-radios {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+#basket .payment-radios input {
+  appearance: none;
+  -webkit-appearance: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+#basket .payment-radios label {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.65rem 1.2rem;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted-dark);
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+#basket .payment-radios label:hover {
+  background: rgba(var(--accent-rgb), 0.12);
+  border-color: var(--accent);
+}
+#basket .payment-radios label:has(input:checked) {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--card-text);
+}
+#basket .payment-radios label:has(input:focus-visible) {
+  outline: 2px solid var(--accent2);
+  outline-offset: 2px;
 }
 
 /* ── Order buttons ── */

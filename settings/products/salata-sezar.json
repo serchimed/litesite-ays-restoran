@@ -1,0 +1,19 @@
+{
+  "id": "s3",
+  "name": "Sezar Salata",
+  "url": "salata-sezar",
+  "images": ["salata-sezar.webp"],
+  "price": 350,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Salata", "url": "salata" },
+  "shortDesc": "Klasik Sezar sosuyla hazırlanan tavuklu salata.",
+  "metaDesc": "AYS KEBAP Sezar Salata — 350₺",
+  "keywords": "sezar salata, salata, ays kebap",
+  "longDesc": [
+    "Izgara tavuk, marul, parmesan peyniri ve krutonlardan oluşan Sezar salatası; özel Sezar sosuyla tatlandırılarak servis edilir."
+  ],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "1 Porsiyon", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

@@ -40,7 +40,7 @@ build_main() {
       if [[ "$line" =~ $_ri ]]; then
         local img_val="${BASH_REMATCH[1]}"
         html+="<section>"
-        html+="<img src=\"/img/pages/${img_val%.webp}-k.webp\" data-src=\"/img/pages/${img_val}\" loading=\"lazy\" alt=\"\">"
+        html+="<img src=\"/img/pages/${img_val%.*}-k.webp\" data-src=\"/img/pages/${img_val}\" loading=\"lazy\" alt=\"\">"
         html+="<div>"
         in_img_block=1
       fi
@@ -194,7 +194,7 @@ build_hero() {
   # Build img tag based on lazy flag — inline blur_src (no subprocess)
   local img_tag
   if [ "$hero_lazy" = "1" ]; then
-    img_tag="<img src=\"/img/pages/${hero_img%.webp}-k.webp\" data-src=\"/img/pages/$hero_img\" loading=\"lazy\" alt=\"${hero_line1}\">"
+    img_tag="<img src=\"/img/pages/${hero_img%.*}-k.webp\" data-src=\"/img/pages/$hero_img\" loading=\"lazy\" alt=\"${hero_line1}\">"
   else
     img_tag="<img src=\"/img/pages/$hero_img\" alt=\"${hero_line1}\">"
   fi
@@ -229,7 +229,7 @@ build_product_cards_plain() {
 
     html+="<li>"
     html+="<a href=\"/${PRODUCTS_DIR}/${url}.html\">"
-    html+="<img src=\"/img/products/${img%.webp}-k.webp\" data-src=\"/img/products/${img}\" loading=\"lazy\" alt=\"${L_BRAND} ${name}\" title=\"${L_BRAND} ${name}\">"
+    html+="<img src=\"/img/products/${img%.*}-k.webp\" data-src=\"/img/products/${img}\" loading=\"lazy\" alt=\"${L_BRAND} ${name}\" title=\"${L_BRAND} ${name}\">"
     html+="<h3>${name}</h3>"
     html+="</a>"
     html+="<b>${price} ${SITE_CURRENCY_SYMBOL}</b>"

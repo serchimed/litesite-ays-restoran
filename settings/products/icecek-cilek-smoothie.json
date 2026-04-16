@@ -1,0 +1,15 @@
+{
+  "id": "dr6",
+  "name": "Çilek Smoothie",
+  "url": "icecek-cilek-smoothie",
+  "images": ["icecek-cilek-smoothie.webp"],
+  "price": 260,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Taze çilekle hazırlanan smoothie.",
+  "metaDesc": "AYS RESTORANT Çilek Smoothie — 260₺",
+  "keywords": "çilek smoothie, smoothie, içecek, ays restorant",
+  "longDesc": ["Taze çileklerin blend edilmesiyle hazırlanan, vitamin dolu ferahlatıcı smoothie."],
+  "otherDesc": [{ "name": "Tat", "value": "Çilek", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

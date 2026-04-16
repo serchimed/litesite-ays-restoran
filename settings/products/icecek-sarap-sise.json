@@ -1,0 +1,16 @@
+{
+  "id": "dr9",
+  "name": "Kırmızı/Beyaz Şarap (Şişe)",
+  "url": "icecek-sarap-sise",
+  "images": ["icecek-sarap-sise.webp"],
+  "price": 2000,
+  "weight": { "value": 1, "unit": "şişe" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Kırmızı veya beyaz şarap, tam şişe.",
+  "metaDesc": "AYS RESTORANT Kırmızı/Beyaz Şarap Şişe — 2000₺",
+  "keywords": "şarap, kırmızı şarap, beyaz şarap, şişe, ays restorant",
+  "longDesc": ["Kırmızı veya beyaz seçeneğiyle sunulan kaliteli şarap, tam şişe olarak servis edilir."],
+  "otherDesc": [{ "name": "Seçenek", "value": "Kırmızı / Beyaz", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" },
+  "isForMenu": false
+}

@@ -1,0 +1,19 @@
+{
+  "id": "m3",
+  "name": "Tavuklu Noodle",
+  "url": "makarna-tavuklu-noodle",
+  "images": ["makarna-tavuklu-noodle.webp"],
+  "price": 420,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Makarna", "url": "makarna" },
+  "shortDesc": "Tavuk parçalarıyla hazırlanan noodle makarna.",
+  "metaDesc": "AYS RESTORANT Tavuklu Noodle — 420₺",
+  "keywords": "tavuklu noodle, noodle, makarna, ays restorant",
+  "longDesc": [
+    "Izgara tavuk parçaları ve noodle'ın lezzetli buluşması; özel sos ile tatlandırılarak servis edilir."
+  ],
+  "otherDesc": [
+    { "name": "İçerik", "value": "Tavuk, Noodle", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

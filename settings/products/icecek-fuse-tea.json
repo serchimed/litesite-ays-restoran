@@ -1,17 +1,15 @@
 {
-  "id": "ic11",
-  "name": "Fuse Tea",
+  "id": "dr27",
+  "name": "Fuse Tea (Şeftali/Limon/Mango)",
   "url": "icecek-fuse-tea",
-  "images": ["icecek-fuse-tea.jpg"],
+  "images": ["icecek-fuse-tea.webp"],
   "price": 90,
-  "weight": { "value": 1, "unit": "kutu/şişe" },
+  "weight": { "value": 1, "unit": "adet" },
   "category": { "name": "İçecek", "url": "icecek" },
-  "shortDesc": "Soğuk Fuse Tea meyve aromalı soğuk çay.",
-  "metaDesc": "AYS KEBAP Fuse Tea — 90₺",
-  "keywords": "fuse tea, soğuk çay, içecek, ays kebap",
-  "longDesc": ["Soğuk servis edilen meyve aromalı Fuse Tea."],
-  "otherDesc": [
-    { "name": "Tür", "value": "Soğuk Çay", "type": "spec" }
-  ],
+  "shortDesc": "Fuse Tea soğuk çay, şeftali, limon veya mango seçeneğiyle.",
+  "metaDesc": "AYS RESTORANT Fuse Tea — 90₺",
+  "keywords": "fuse tea, soğuk çay, içecek, ays restorant",
+  "longDesc": ["Şeftali, limon veya mango seçeneğiyle sunulan soğuk Fuse Tea çay."],
+  "otherDesc": [{ "name": "Seçenek", "value": "Şeftali / Limon / Mango", "type": "spec" }],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

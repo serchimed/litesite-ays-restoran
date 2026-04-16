@@ -5,7 +5,7 @@
   "langSwitch": [
     { "label": "TR", "url": "https://alan-adiniz.com", "lang": "tr" }
   ],
-  "rootPages": ["index", "404"],
+  "rootPages": ["index", "404", "menu"],
   "pagesDir": "pages",
   "productsDir": "products",
   "isCategoryCollapsable": true,
@@ -29,11 +29,11 @@
   "offlineWarning": "İnternet'e erişilemiyor, lütfen bağlantınızı kontrol ediniz.",
   "taxIncluded": "KDV Dahil",
   "basketWarning": "Ürünlerinizi sepete ekledikten sonra,<br/>'WhatsApp'tan Siparişini İlet' butonuna tıklayarak<br/>siparişinizi ve adres bilgilerinizi tarafımıza iletebilir,<br/>alışverişinizi kolayca tamamlayabilirsiniz.",
-  "whatsAppWarning": "WhatsApp kullanmıyorsanız,<br/>sipariş ve sorularınız için bize siparis@alan-adiniz.com adresimizden ulaşabilirsiniz.",
+  "whatsAppWarning": "WhatsApp kullanmıyorsanız,<br/>sipariş ve sorularınız için bize {{phone}} sabit numaramızdan ulaşabilirsiniz.",
   "shippingWarning": "Yakın çevredeki siparişlerde teslimat ücretsizdir.",
 
   "headerHero": {
-    "img": "hero-header.jpg",
+    "img": "hero-header.png",
     "text": [
       "AYS KEBAP'ta Lezzet Buluşması",
       "Dürüm, kebap ve ızgara lezzetleri kapınıza geliyor."
@@ -45,7 +45,9 @@
             "css/page.css", "css/product.css", "css/basket.css"],
     "js": ["js/lazy.js", "js/off.js", "js/navmenu.js", "js/helper.js", "js/basket.js", "js/animate.js"],
     "cssOutput": "site.css",
-    "jsOutput": "site.js"
+    "jsOutput": "site.js",
+    "menuCss": "css/menu.css",
+    "menuCssOutput": "menu.css"
   },
 
   "labels": {
@@ -88,6 +90,7 @@
     "noteLabel": "Not",
     "happyHourTimezoneWarning": "Bu indirim restoran saatine göredir. Cihazınızın saati farklı olabilir.",
     "discountProgressPrefix": "daha fazla al,",
-    "discountProgressSuffix": "indirim kazan"
+    "discountProgressSuffix": "indirim kazan",
+    "notForOnlineOrder": "Online siparişe kapalıdır"
   }
 }

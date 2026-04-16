@@ -2,14 +2,17 @@
   "id": "dd2",
   "name": "Urfa Dürüm (Double Şiş)",
   "url": "durum-urfa-double",
-  "images": ["durum-urfa.jpg"],
+  "images": ["durum-urfa.webp"],
   "price": 500,
   "weight": { "value": 1, "unit": "adet" },
-  "category": { "name": "Dürüm", "url": "dorum" },
+  "category": { "name": "Dürüm", "url": "durum" },
   "shortDesc": "Acısız Urfa kebap ile hazırlanan lavaş dürüm, double şiş.",
   "metaDesc": "AYS KEBAP Urfa Dürüm Double Şiş — 500₺",
   "keywords": "urfa dürüm, double şiş, kebap, ays kebap",
-  "longDesc": ["Hafif baharatlı Urfa kebap, lavaş ekmeğe double şiş olarak sarılarak sunulur."],
+  "longDesc": [
+    "AYS KEBAP'ın özel karabiber harmanıyla yoğrulan Urfa kebap şişten alınır alınmaz, taze soğan, domates ve maydanozla birlikte ince lavaşa sarılır.",
+    "Yanında közlenmiş biber ve biber turşusuyla servis edilen bu dürüm, her lokmada baharatın dengeli aromasını hissettiriyor."
+  ],
   "otherDesc": [
     { "name": "Porsiyon", "value": "Double Şiş", "type": "spec" }
   ],

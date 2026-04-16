@@ -1,0 +1,15 @@
+{
+  "id": "ap7",
+  "name": "Bulgur Pilavı",
+  "url": "aperatif-bulgur",
+  "images": ["aperatif-bulgur.webp"],
+  "price": 150,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Aperatif", "url": "aperatif" },
+  "shortDesc": "Geleneksel yöntemle pişirilen bulgur pilavı.",
+  "metaDesc": "AYS RESTORANT Bulgur Pilavı — 150₺",
+  "keywords": "bulgur pilavı, bulgur, aperatif, ays restorant",
+  "longDesc": ["Tereyağı ile kavrulan ince bulgurdan hazırlanan geleneksel pilav."],
+  "otherDesc": [{ "name": "Porsiyon", "value": "1 Porsiyon", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

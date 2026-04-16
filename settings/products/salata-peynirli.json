@@ -1,0 +1,19 @@
+{
+  "id": "s2",
+  "name": "Peynirli Salata",
+  "url": "salata-peynirli",
+  "images": ["salata-peynirli.webp"],
+  "price": 300,
+  "weight": { "value": 1, "unit": "porsiyon" },
+  "category": { "name": "Salata", "url": "salata" },
+  "shortDesc": "Bol peynirli taze salata.",
+  "metaDesc": "AYS KEBAP Peynirli Salata — 300₺",
+  "keywords": "peynirli salata, salata, ays kebap",
+  "longDesc": [
+    "Taze yeşillikler, domates ve salatalık üzerine bol beyaz peynir eklenerek hazırlanan bu salata; zeytinyağı sosuyla servis edilir."
+  ],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "1 Porsiyon", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

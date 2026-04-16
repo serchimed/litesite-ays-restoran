@@ -1,0 +1,16 @@
+{
+  "id": "dr10",
+  "name": "Kırmızı/Beyaz/Roze Şarap (Kadeh)",
+  "url": "icecek-sarap-kadeh",
+  "images": ["icecek-sarap-kadeh.webp"],
+  "price": 400,
+  "weight": { "value": 1, "unit": "kadeh" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Kırmızı, beyaz veya roze şarap, tek kadeh.",
+  "metaDesc": "AYS RESTORANT Şarap Kadeh — 400₺",
+  "keywords": "şarap, kırmızı, beyaz, roze, kadeh, ays restorant",
+  "longDesc": ["Kırmızı, beyaz veya roze seçeneğiyle sunulan şarap, kadeh olarak servis edilir."],
+  "otherDesc": [{ "name": "Seçenek", "value": "Kırmızı / Beyaz / Roze", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" },
+  "isForMenu": false
+}

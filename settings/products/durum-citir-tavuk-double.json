@@ -1,17 +1,20 @@
 {
-  "id": "dd6",
-  "name": "Çıtır Tavuk Dürüm (Double Şiş)",
+  "id": "dd8",
+  "name": "Çıtır Tavuk Dürüm (Double)",
   "url": "durum-citir-tavuk-double",
-  "images": ["durum-citir-tavuk.jpg"],
+  "images": ["durum-citir-tavuk.webp"],
   "price": 400,
   "weight": { "value": 1, "unit": "adet" },
-  "category": { "name": "Dürüm", "url": "dorum" },
-  "shortDesc": "Çıtır tavuk parçaları ile hazırlanan lavaş dürüm, double şiş.",
-  "metaDesc": "AYS KEBAP Çıtır Tavuk Dürüm Double Şiş — 400₺",
-  "keywords": "çıtır tavuk, dürüm, double şiş, ays kebap",
-  "longDesc": ["Çıtır kızartılmış tavuk parçaları lavaşa double şiş olarak sarılarak servis edilir."],
+  "category": { "name": "Dürüm", "url": "durum" },
+  "shortDesc": "Çıtır kaplamalı tavuk ile hazırlanan lavaş dürüm, double.",
+  "metaDesc": "AYS KEBAP Çıtır Tavuk Dürüm Double — 400₺",
+  "keywords": "çıtır tavuk, dürüm, double, ays kebap",
+  "longDesc": [
+    "Özel baharatlı kaplama ile hazırlanan çıtır tavuk, ince lavaşa sarılarak taze sebzelerle servis edilir.",
+    "Dışı çıtır içi yumuşak tavuğun lavaşla buluşması; pratik ve lezzetli bir tercih."
+  ],
   "otherDesc": [
-    { "name": "Porsiyon", "value": "Double Şiş", "type": "spec" }
+    { "name": "Porsiyon", "value": "Double", "type": "spec" }
   ],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

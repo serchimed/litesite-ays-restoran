@@ -1,17 +1,15 @@
 {
-  "id": "ic10",
+  "id": "dr26",
   "name": "Sprite",
   "url": "icecek-sprite",
-  "images": ["icecek-sprite.jpg"],
+  "images": ["icecek-sprite.webp"],
   "price": 90,
-  "weight": { "value": 1, "unit": "kutu/şişe" },
+  "weight": { "value": 1, "unit": "adet" },
   "category": { "name": "İçecek", "url": "icecek" },
-  "shortDesc": "Soğuk Sprite limon-misket limonu.",
-  "metaDesc": "AYS KEBAP Sprite — 90₺",
-  "keywords": "sprite, limon, içecek, ays kebap",
-  "longDesc": ["Soğuk servis edilen Sprite limon-misket limonu."],
-  "otherDesc": [
-    { "name": "Lezzet", "value": "Limon", "type": "spec" }
-  ],
+  "shortDesc": "Soğuk Sprite.",
+  "metaDesc": "AYS RESTORANT Sprite — 90₺",
+  "keywords": "sprite, içecek, ays restorant",
+  "longDesc": ["Buzlu servis edilen soğuk Sprite."],
+  "otherDesc": [{ "name": "Tür", "value": "Gazlı İçecek", "type": "spec" }],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

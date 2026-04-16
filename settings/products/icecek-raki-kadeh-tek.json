@@ -1,0 +1,16 @@
+{
+  "id": "dr11",
+  "name": "Rakı Kadeh Tek",
+  "url": "icecek-raki-kadeh-tek",
+  "images": ["icecek-raki-kadeh-tek.webp"],
+  "price": 250,
+  "weight": { "value": 1, "unit": "kadeh" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Tek kadeh rakı.",
+  "metaDesc": "AYS RESTORANT Rakı Kadeh Tek — 250₺",
+  "keywords": "rakı, kadeh, tek, ays restorant",
+  "longDesc": ["Soğuk su ile servis edilen tek kadeh rakı."],
+  "otherDesc": [{ "name": "Porsiyon", "value": "Tek Kadeh", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" },
+  "isForMenu": false
+}

@@ -2,16 +2,19 @@
   "id": "p2",
   "name": "Urfa Porsiyon (Acısız)",
   "url": "porsiyon-urfa",
-  "images": ["porsiyon-urfa.jpg"],
+  "images": ["porsiyon-urfa.webp"],
   "price": 500,
   "weight": { "value": 1, "unit": "porsiyon" },
   "category": { "name": "Porsiyon", "url": "porsiyon" },
   "shortDesc": "Acısız Urfa kebap porsiyonu, pilav ve salata ile servis edilir.",
-  "metaDesc": "AYS KEBAP Urfa Porsiyon Acısız — 500₺",
-  "keywords": "urfa porsiyon, acısız kebap, ays kebap",
-  "longDesc": ["Hafif baharatlı Urfa kebap porsiyonu, pilav ve salata eşliğinde sunulur."],
+  "metaDesc": "AYS KEBAP Urfa Porsiyon (Acısız) — 500₺",
+  "keywords": "urfa, porsiyon, acısız, ays kebap",
+  "longDesc": [
+    "AYS KEBAP'ın Urfa porsiyonu, hafif baharatlı dana kıymadan hazırlanır; mangalda közlenerek nefis bir lezzet sunar.",
+    "Tabağınızda sizi şunlar karşılar: Tereyağlı pilav, közlenmiş domates ve biber, sıcak lavaş, acılı antep ezme, haydari, patlıcan salatası ve biber turşusu."
+  ],
   "otherDesc": [
-    { "name": "Lezzet", "value": "Acısız", "type": "spec" }
+    { "name": "Et", "value": "Urfa (Acısız)", "type": "spec" }
   ],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

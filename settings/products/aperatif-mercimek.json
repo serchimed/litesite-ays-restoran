@@ -1,0 +1,17 @@
+{
+  "id": "ap2",
+  "name": "Mercimek Çorbası",
+  "url": "aperatif-mercimek",
+  "images": ["aperatif-mercimek.webp"],
+  "price": 120,
+  "weight": { "value": 1, "unit": "kase" },
+  "category": { "name": "Aperatif", "url": "aperatif" },
+  "shortDesc": "Geleneksel tarifle hazırlanan sıcak mercimek çorbası.",
+  "metaDesc": "AYS KEBAP Mercimek Çorbası — 120₺",
+  "keywords": "mercimek çorbası, çorba, ays kebap",
+  "longDesc": ["Geleneksel yöntemle pişirilen, kremamsı kıvamıyla doyurucu mercimek çorbası."],
+  "otherDesc": [
+    { "name": "Porsiyon", "value": "1 Kase", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}

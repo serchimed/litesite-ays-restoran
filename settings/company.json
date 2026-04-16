@@ -21,6 +21,8 @@
   "priceValidUntilDays": 30,
 
   "brand": "AYS KEBAP",
+  "timezone": "Europe/Istanbul",
+  "country": "TR",
 
   "manufacturer": {
     "name": "AYS KEBAP Gıda ve Hizmetleri",

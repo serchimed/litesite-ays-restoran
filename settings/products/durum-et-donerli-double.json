@@ -1,17 +1,20 @@
 {
-  "id": "dd4",
-  "name": "Et Dönerli Soslu Dürüm (Double Şiş)",
+  "id": "dd9",
+  "name": "Et Dönerli Soslu Dürüm (Double)",
   "url": "durum-et-donerli-double",
-  "images": ["durum-et-donerli.jpg"],
+  "images": ["durum-et-donerli.webp"],
   "price": 500,
   "weight": { "value": 1, "unit": "adet" },
-  "category": { "name": "Dürüm", "url": "dorum" },
-  "shortDesc": "Et döner ve özel sos ile hazırlanan lavaş dürüm, double şiş.",
-  "metaDesc": "AYS KEBAP Et Dönerli Soslu Dürüm Double Şiş — 500₺",
-  "keywords": "et döner, dürüm, double şiş, ays kebap",
-  "longDesc": ["Et döner ve özel sos ile hazırlanan, doyurucu lavaş dürüm, double şiş."],
+  "category": { "name": "Dürüm", "url": "durum" },
+  "shortDesc": "Et döner ve özel sosla hazırlanan lavaş dürüm, double.",
+  "metaDesc": "AYS KEBAP Et Dönerli Soslu Dürüm Double — 500₺",
+  "keywords": "et döner, soslu dürüm, double, ays kebap",
+  "longDesc": [
+    "İnce dilimlenmiş et döner, özel sos ile harmanlanarak ince lavaşa sarılır.",
+    "Taze soğan, domates ve turşuyla servis edilen dolu dolu bir dürüm."
+  ],
   "otherDesc": [
-    { "name": "Porsiyon", "value": "Double Şiş", "type": "spec" }
+    { "name": "Porsiyon", "value": "Double", "type": "spec" }
   ],
   "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
 }

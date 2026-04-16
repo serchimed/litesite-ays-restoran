@@ -1,0 +1,15 @@
+{
+  "id": "dr5",
+  "name": "Çilek Frozen",
+  "url": "icecek-cilek-frozen",
+  "images": ["icecek-cilek-frozen.webp"],
+  "price": 260,
+  "weight": { "value": 1, "unit": "adet" },
+  "category": { "name": "İçecek", "url": "icecek" },
+  "shortDesc": "Çilek aromalı soğuk frozen içecek.",
+  "metaDesc": "AYS RESTORANT Çilek Frozen — 260₺",
+  "keywords": "çilek frozen, frozen, içecek, ays restorant",
+  "longDesc": ["Taze çileğin ferahlatıcı aromasıyla hazırlanan soğuk frozen içecek."],
+  "otherDesc": [{ "name": "Tat", "value": "Çilek", "type": "spec" }],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "1", "bestRating": "5", "worstRating": "1" }
+}
